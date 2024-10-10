@@ -50,21 +50,21 @@
 							</div>
 							<div class="mr-auto w-44 flex-none space-y-8 sm:mr-0 sm:pt-52 lg:pt-36">
 								<div class="relative">
-									<img src="/assets/images/people/1.jpeg" alt="" class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" />
+									<img src="/assets/images/people/1.jpeg" alt="" class="aspect-[3/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" />
 									<div class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
 								</div>
 								<div class="relative">
-									<img src="/assets/images/people/2.jpeg" alt="" class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" />
+									<img src="/assets/images/people/2.jpeg" alt="" class="aspect-[3/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" />
 									<div class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
 								</div>
 							</div>
 							<div class="w-44 flex-none space-y-8 pt-32 sm:pt-0">
 								<div class="relative">
-									<img src="/assets/images/people/3.jpeg" alt="" class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" />
+									<img src="/assets/images/people/3.jpeg" alt="" class="aspect-[3/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" />
 									<div class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
 								</div>
 								<div class="relative">
-									<img src="/assets/images/people/4.jpeg" alt="" class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" />
+									<img src="/assets/images/people/4.jpeg" alt="" class="aspect-[3/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" />
 									<div class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
 								</div>
 							</div>
