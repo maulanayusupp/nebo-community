@@ -24,12 +24,20 @@
 							<h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">NEBO
 							</h1>
 							<p class="mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none">
-								Super Sunday menghadirkan rangkaian perawatan kulit premium yang dirancang untuk memberikan kelembutan, kecerahan, dan hidrasi maksimal. Dengan bahan alami dan formula berkualitas tinggi, kami berkomitmen untuk menjaga kulit Anda tetap sehat dan terlindungi dari polusi serta stres sehari-hari.
+								Komunitas ini tidak hanya berbagi tentang tips modifikasi dan peningkatan performa, tetapi juga aktif mengadakan kegiatan touring, kopdar, dan berbagai event seru lainnya. Bersama NEBO, setiap anggota bisa merasakan sensasi berkendara yang maksimal, sembari memperkuat tali persaudaraan sesama rider NMAX.
 							</p>
 							<div class="mt-10 flex items-center gap-x-6">
-								<a href="#" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Beli sekarang</a>
-								<a href="#" class="text-sm font-semibold leading-6 text-gray-900">
-									Pelajari Lebih Lanjut <span aria-hidden="true">→</span>
+								<a
+									href="https://wa.me/6281223230300?text=Halo,%20saya%20ingin%20bergabung%20dengan%20NEBO:%20Yamaha%20NMAX%20Neo%20Turbo%20Community.%20Mohon%20informasinya%20lebih%20lanjut.%20Terima%20kasih!"
+									target="_blank"
+									class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+									Gabung sekarang
+								</a>
+								<a
+									href="https://wa.me/6285722437493?text=Halo,%20saya%20ingin%20bergabung%20dengan%20NEBO:%20Yamaha%20NMAX%20Neo%20Turbo%20Community.%20Mohon%20informasinya%20lebih%20lanjut.%20Terima%20kasih!"
+									target="_blank"
+									class="text-sm font-semibold leading-6 text-gray-900">
+									Hubungi Admin <span aria-hidden="true">→</span>
 								</a>
 							</div>
 						</div>
@@ -73,10 +81,10 @@
 					<div class="lg:pr-8 lg:pt-4">
 						<div class="lg:max-w-lg">
 							<p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-								Mengapa Super Sunday?
+								Mengapa harus bergabung?
 							</p>
 							<p class="mt-6 text-lg leading-8 text-gray-600">
-								Dengan tekstur ringan dan cepat meresap, Super Sunday nyaman digunakan tanpa rasa lengket atau berminyak.
+								Bergabung dengan NEBO bukan sekadar menjadi bagian dari komunitas, tetapi juga membuka pintu menuju pengalaman berkendara yang lebih seru dan berharga.
 							</p>
 							<dl class="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
 								<div v-for="mission in missions" :key="mission.name" class="relative pl-9">
@@ -95,62 +103,6 @@
 			</div>
 		</div>
 
-		<!-- Our Products -->
-		<div class="bg-white py-24 sm:py-32">
-			<div class="mx-auto max-w-7xl px-6 lg:px-8">
-				<div class="mx-auto max-w-2xl lg:text-center">
-					<p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-						Produk Unggulan Kami
-					</p>
-					<p class="mt-6 text-lg leading-8 text-gray-600">Produk kami dikembangkan untuk menjaga kesehatan dan kecantikan kulit Anda secara optimal. Temukan produk yang paling sesuai dengan kebutuhan kulit Anda dan rasakan perbedaannya. Kecantikan sejati dimulai dari perawatan yang tepat.</p>
-				</div>
-				<div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
-					<dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
-						<div v-for="featureProduct in featureProducts" :key="featureProduct.name" class="flex flex-col">
-							<dt class="flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900">
-								<component :is="featureProduct.icon" class="h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
-								{{ featureProduct.name }}
-							</dt>
-							<dd class="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600">
-								<p class="flex-auto">{{ featureProduct.description }}</p>
-							</dd>
-						</div>
-					</dl>
-				</div>
-			</div>
-		</div>
-
-		<!-- CTA -->
-		<div class="bg-white">
-			<div class="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8">
-				<div class="relative isolate overflow-hidden bg-gray-900 px-6 py-24 text-center shadow-2xl sm:rounded-3xl sm:px-16">
-					<h2 class="mx-auto max-w-2xl text-3xl font-bold tracking-tight text-white sm:text-4xl">
-						Dapatkan Kulit Sehat dengan Super Sunday!
-					</h2>
-					<p class="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-300">
-						Mulai perjalanan perawatan kulit Anda dengan Super Sunday dan rasakan perbedaan nyata pada kulit Anda. Produk kami tersedia secara eksklusif melalui toko online kami dan mitra resmi.
-					</p>
-					<div class="mt-10 flex items-center justify-center gap-x-6">
-						<a href="#" class="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">
-							Beli Sekarang
-						</a>
-						<a href="#" class="text-sm font-semibold leading-6 text-white">
-							Pelajari Lebih Lanjut <span aria-hidden="true">→</span>
-						</a>
-					</div>
-					<svg viewBox="0 0 1024 1024" class="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-x-1/2 [mask-image:radial-gradient(closest-side,white,transparent)]" aria-hidden="true">
-						<circle cx="512" cy="512" r="512" fill="url(#827591b1-ce8c-4110-b064-7cb85a0b1217)" fill-opacity="0.7" />
-						<defs>
-							<radialGradient id="827591b1-ce8c-4110-b064-7cb85a0b1217">
-								<stop stop-color="#7775D6" />
-								<stop offset="1" stop-color="#E935C1" />
-							</radialGradient>
-						</defs>
-					</svg>
-				</div>
-			</div>
-		</div>
-
 	</main>
 </div>
 </template>
@@ -162,41 +114,28 @@ import { StarIcon } from '@heroicons/vue/20/solid'
 
 const missions = [
   {
-    name: 'Hidrasi Mendalam',
-    description: 'Formula Super Sunday memberikan kelembapan yang tahan lama, menjaga kulit tetap lembut dan sehat sepanjang hari.',
+    name: 'Koneksi dengan Sesama Penggemar',
+    description: 'Dapatkan kesempatan untuk bertemu dan berinteraksi dengan para pemilik dan penggemar Yamaha NMAX lainnya. Berbagi pengalaman dan tips modifikasi akan memperkaya pengetahuan Anda tentang motor kesayangan.',
     icon: StarIcon,
   },
   {
-    name: 'Perlindungan Alami',
-    description: 'Diperkaya dengan bahan alami yang menutrisi kulit dan melindunginya dari efek buruk lingkungan seperti polusi dan sinar UV.',
+    name: 'Dukungan dan Saran Modifikasi',
+    description: 'Anggota NEBO saling membantu dalam hal modifikasi motor. Anda akan mendapatkan saran berharga tentang peningkatan performa dan gaya yang dapat membuat NMAX Anda semakin keren dan bertenaga.',
     icon: StarIcon,
   },
   {
-    name: 'Tekstur Ringan dan Nyaman',
-    description: 'Super Sunday menyerap cepat tanpa rasa lengket, memberikan sensasi segar dan ringan di kulit.',
+    name: 'Kegiatan Seru dan Touring',
+    description: 'Ikuti berbagai kegiatan menarik, mulai dari kopdar hingga touring bersama. Rasakan kebersamaan dan keseruan menjelajahi jalanan dengan teman-teman satu hobi.',
     icon: StarIcon,
   },
   {
-    name: 'Cocok untuk Semua Jenis Kulit',
-    description: 'Dengan formula lembut dan non-irritasi, Super Sunday dapat digunakan untuk kulit sensitif, kering, berminyak, atau kombinasi.',
+    name: 'Akses ke Informasi Terbaru',
+    description: 'Dapatkan informasi terkini tentang produk, event, dan tren modifikasi Yamaha NMAX. Jangan lewatkan kesempatan untuk selalu update dan mendapatkan penawaran spesial dari mitra komunitas.',
     icon: StarIcon,
   },
-]
-
-const featureProducts = [
   {
-    name: 'Daily Sun Protection',
-    description: 'Pelindung matahari SPF tinggi dengan formula ringan yang melindungi kulit dari sinar UVA dan UVB, tanpa meninggalkan residu berminyak.',
-    icon: StarIcon,
-  },
-	{
-    name: 'Brightening Moisturizer',
-    description: 'Serum, masker, dan treatment khusus untuk masalah kulit seperti jerawat, penuaan dini, hiperpigmentasi, dan kulit sensitif.',
-    icon: StarIcon,
-  },
-	{
-    name: 'Hydrating Serum',
-    description: 'Mengunci kelembapan dan menjaga kulit tetap terhidrasi sepanjang hari dengan kombinasi bahan alami seperti hyaluronic acid dan ekstrak lidah buaya.',
+    name: 'Komunitas yang Ramah dan Inklusif',
+    description: 'NEBO adalah tempat di mana semua penggemar NMAX disambut dengan hangat, tanpa memandang pengalaman berkendara atau tingkat modifikasi. Bergabunglah dengan komunitas yang mendukung dan menginspirasi satu sama lain.',
     icon: StarIcon,
   },
 ]

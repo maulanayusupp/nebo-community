@@ -57,7 +57,7 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
 
 const navigation = [
 	{ name: 'Home', href: '/' },
-	{ name: 'Products', href: '#' },
+	// { name: 'Products', href: '#' },
 ]
 
 const mobileMenuOpen = ref(false)
