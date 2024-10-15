@@ -2,6 +2,10 @@
 <div>
 	<main>
 
+		<!-- Hero section -->
+		<hero-section class="mt-20" />
+
+		<!-- Intro -->
 		<div class="relative isolate">
 			<svg class="absolute inset-x-0 top-0 -z-10 h-[64rem] w-full stroke-gray-200 [mask-image:radial-gradient(32rem_32rem_at_center,white,transparent)]" aria-hidden="true">
 				<defs>
@@ -102,7 +106,6 @@
 				</div>
 			</div>
 		</div>
-
 	</main>
 </div>
 </template>
@@ -111,6 +114,7 @@
 import { ref } from 'vue'
 
 import { StarIcon } from '@heroicons/vue/20/solid'
+import HeroSection from '~/components/home/HeroSection.vue';
 
 const missions = [
   {
