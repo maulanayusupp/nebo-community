@@ -5,12 +5,26 @@
     <div class="max-w-7xl mx-auto px-6 lg:px-8">
       <div class="mt-4" v-if="banners.length > 0">
         <Swiper
-          :modules="[SwiperNavigation]"
+					navigation
+          :modules="[SwiperNavigation, SwiperAutoplay, SwiperEffectCreative]"
           :thumbs="{  }"
           :slides-per-view="1"
           :space-between="10"
           :loop="true"
-          navigation
+					:autoplay="{
+						delay: 4000,
+						disableOnInteraction: true,
+					}"
+					:creative-effect="{
+						prev: {
+							shadow: false,
+							translate: ['-20%', 0, -1],
+						},
+						next: {
+							translate: ['100%', 0, 0],
+						},
+					}"
+
           >
             <SwiperSlide
                 v-for="(item, index) in banners"
