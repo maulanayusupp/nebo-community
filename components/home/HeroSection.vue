@@ -94,6 +94,13 @@ export default {
 					cta_url: '',
 					cta_label: '',
 				},
+				{
+					media_path: '/assets/images/sliders/slider_4.jpeg',
+					title: '',
+					description: '',
+					cta_url: '',
+					cta_label: '',
+				},
 			],
       isFetching: false,
     }
