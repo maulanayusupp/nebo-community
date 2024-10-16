@@ -4,33 +4,15 @@
     <div class="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
       <div class="xl:grid xl:grid-cols-3 xl:gap-8">
         <div>
-					<img class="h-7" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="Company name" />
+					<img class="h-24 rounded-lg" src="/assets/images/logos/nebo_logo.jpeg" alt="Company name" />
 					<p class="text-sm text-gray-600 mt-3 leading-6">
-						Super Sunday adalah brand skincare yang fokus pada perawatan kulit alami dengan bahan-bahan berkualitas tinggi. Kami percaya bahwa setiap orang berhak memiliki kulit yang sehat, cerah, dan terawat. Dengan produk yang diformulasikan secara khusus, Super Sunday memberikan perawatan kulit terbaik untuk Anda.
+						<label for="">NEBO: Yamaha NMAX Neo Turbo Community</label>
 					</p>
 				</div>
         <div class="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
           <div class="md:grid md:grid-cols-2 md:gap-8">
             <div>
-              <h3 class="text-sm font-semibold leading-6 text-gray-900">Solutions</h3>
-              <ul role="list" class="mt-6 space-y-4">
-                <li v-for="item in navigation.solutions" :key="item.name">
-                  <a :href="item.href" class="text-sm leading-6 text-gray-600 hover:text-gray-900">{{ item.name }}</a>
-                </li>
-              </ul>
-            </div>
-            <div class="mt-10 md:mt-0">
-              <h3 class="text-sm font-semibold leading-6 text-gray-900">Support</h3>
-              <ul role="list" class="mt-6 space-y-4">
-                <li v-for="item in navigation.support" :key="item.name">
-                  <a :href="item.href" class="text-sm leading-6 text-gray-600 hover:text-gray-900">{{ item.name }}</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="md:grid md:grid-cols-2 md:gap-8">
-            <div>
-              <h3 class="text-sm font-semibold leading-6 text-gray-900">Company</h3>
+              <h3 class="text-sm font-semibold leading-6 text-gray-900">About</h3>
               <ul role="list" class="mt-6 space-y-4">
                 <li v-for="item in navigation.company" :key="item.name">
                   <a :href="item.href" class="text-sm leading-6 text-gray-600 hover:text-gray-900">{{ item.name }}</a>
@@ -61,15 +43,6 @@
           </div>
         </form>
       </div>
-      <div class="mt-8 border-t border-gray-900/10 pt-8 md:flex md:items-center md:justify-between">
-        <div class="flex space-x-6 md:order-2">
-          <a v-for="item in navigation.social" :key="item.name" :href="item.href" class="text-gray-400 hover:text-gray-500">
-            <span class="sr-only">{{ item.name }}</span>
-            <component :is="item.icon" class="h-6 w-6" aria-hidden="true" />
-          </a>
-        </div>
-        <p class="mt-8 text-xs leading-5 text-gray-500 md:order-1 md:mt-0">&copy; 2024 PT Gyan Geta Nusantara, Inc. All rights reserved.</p>
-      </div>
     </div>
   </footer>
 </template>
@@ -82,17 +55,12 @@ const navigation = {
     { name: 'Products', href: '#' },
     { name: 'Insights', href: '#' },
   ],
-  support: [
-    { name: 'Pricing', href: '#' },
-    { name: 'Customer Care', href: '#' },
-  ],
   company: [
     { name: 'About', href: '#' },
     { name: 'Blog', href: '#' },
     { name: 'Partners', href: '#' },
   ],
   legal: [
-    { name: 'Claim', href: '#' },
     { name: 'Privacy', href: '#' },
     { name: 'Terms', href: '#' },
   ],

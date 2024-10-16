@@ -15,7 +15,7 @@
 			<slot />
 
 			<!-- Footer -->
-			<!-- <the-footer /> -->
+			<the-footer />
 	</Html>
 </template>
 
@@ -25,12 +25,12 @@ definePageMeta({
 });
 
 import NavHeader from '@/layouts/partials/NavHeader.vue'
-// import TheFooter from '@/layouts/partials/TheFooter.vue'
+import TheFooter from '@/layouts/partials/TheFooter.vue'
 
 export default {
 	components: {
 		NavHeader,
-		// TheFooter,
+		TheFooter,
 	},
 	setup() {
 		return {
