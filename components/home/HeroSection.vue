@@ -30,7 +30,7 @@
                 v-for="(item, index) in banners"
                 :key="index">
                 <div
-                    class="relative shadow-xl sm:rounded-2xl sm:overflow-hidden h-[500px]"
+                    class="relative shadow-xl sm:rounded-2xl sm:overflow-hidden h-[300px] md:h-[500px]"
                     @click="clickable(item)">
                     <div class="absolute inset-0">
                         <img class="h-full w-full object-cover" :src="item.media_path" :alt="item.title" />
