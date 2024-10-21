@@ -61,6 +61,7 @@ const navigation = {
     { name: 'Partners', href: '#' },
   ],
   legal: [
+    { name: 'Community Rules', href: '#' },
     { name: 'Privacy', href: '#' },
     { name: 'Terms', href: '#' },
   ],
