@@ -4,10 +4,10 @@
     <div class="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
       <div class="xl:grid xl:grid-cols-3 xl:gap-8">
         <div>
-					<img class="h-24 rounded-lg" src="/assets/images/logos/nebo_logo.jpeg" alt="Company name" />
-					<p class="text-sm text-gray-600 mt-3 leading-6">
+					<p class="text-sm text-gray-600 mb-3 leading-6">
 						<label for="">NEBO: Yamaha NMAX Neo Turbo Community</label>
 					</p>
+					<img class="h-28 rounded-lg" src="/assets/images/logos/nebo_logo.jpeg" alt="Company name" />
 				</div>
         <div class="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
           <div class="md:grid md:grid-cols-2 md:gap-8">
