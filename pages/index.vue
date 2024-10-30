@@ -34,7 +34,7 @@
 							<div class="mt-4 mb-6 font-bold">
 								Yuk, Gabung Gratis ke NEBO – Komunitas Seru Bagi Pengguna Yamaha NMAX!
 							</div>
-							<div class="mt-10 flex items-center gap-x-3 lg:mt-0 lg:flex-shrink-0">
+							<div class="mt-10 grid grid-cols-2 space-y-3 md:space-y-0 md:flex items-center gap-x-3 lg:mt-0 lg:flex-shrink-0">
 								<a
 									href="https://wa.me/6281223230300?text=Halo,%20saya%20ingin%20bergabung%20dengan%20NEBO:%20Yamaha%20NMAX%20Neo%20Turbo%20Community.%20Mohon%20informasinya%20lebih%20lanjut.%20Terima%20kasih!%0A%0ASelamat%20Datang%20di%20Grup%20FORUM%20NEBO%20NMAX%20Neo%20Turbo.%0A%0AMari%20kita%20mengenal%20satu%20sama%20lain%20dengan%20mengisi%20bio%20data%20di%20bawah%20ini:%0A%0ANama%20asli%3A%20%5BNAMA%20ANDA%5D%0ANama%20panggilan%3A%20%5BNAMA%20PANGGILAN%5D%0ANama%20di%20WA%3A%20%5BNAMA%20DI%20WHATSAPP%5D%0AAlamat%3A%20%5BALAMAT%20ANDA%5D%0AKegiatan%20sehari%20hari%3A%20%5BKEGIATAN%20SEHARI%20HARI%5D%0A%0AMari%20kita%20Jalin%20Silaturahmi%20Yang%20Baik%20Penuh%20Berkah.%0AJaga%20Nama%20Baik.%0ANEBO%20N_max%20Neo%20Turbo%20Community%0A%0ASalam%20Silaturahmi%20Membawa%20Berkah%0A%0A'NEBO%20SOLID🤝💪'"
 									target="_blank"
@@ -137,7 +137,7 @@
 						<div class="mt-4 mb-6 font-bold">
 							Yuk, Gabung Gratis ke NEBO – Komunitas Seru Bagi Pengguna Yamaha NMAX!
 						</div>
-						<div class="mt-10 flex items-center gap-x-3 lg:mt-0 lg:flex-shrink-0">
+						<div class="mt-10 grid grid-cols-2 space-y-3 md:space-y-0 md:flex items-center gap-x-3 lg:mt-0 lg:flex-shrink-0">
 							<a
 								href="https://wa.me/6281223230300?text=Halo,%20saya%20ingin%20bergabung%20dengan%20NEBO:%20Yamaha%20NMAX%20Neo%20Turbo%20Community.%20Mohon%20informasinya%20lebih%20lanjut.%20Terima%20kasih!%0A%0ASelamat%20Datang%20di%20Grup%20FORUM%20NEBO%20NMAX%20Neo%20Turbo.%0A%0AMari%20kita%20mengenal%20satu%20sama%20lain%20dengan%20mengisi%20bio%20data%20di%20bawah%20ini:%0A%0ANama%20asli%3A%20%5BNAMA%20ANDA%5D%0ANama%20panggilan%3A%20%5BNAMA%20PANGGILAN%5D%0ANama%20di%20WA%3A%20%5BNAMA%20DI%20WHATSAPP%5D%0AAlamat%3A%20%5BALAMAT%20ANDA%5D%0AKegiatan%20sehari%20hari%3A%20%5BKEGIATAN%20SEHARI%20HARI%5D%0A%0AMari%20kita%20Jalin%20Silaturahmi%20Yang%20Baik%20Penuh%20Berkah.%0AJaga%20Nama%20Baik.%0ANEBO%20N_max%20Neo%20Turbo%20Community%0A%0ASalam%20Silaturahmi%20Membawa%20Berkah%0A%0A'NEBO%20SOLID🤝💪'"
 								target="_blank"
