@@ -41,7 +41,7 @@
 										Pada pertemuan itu juga, kami membahas nama untuk komunitas yang tengah kami bangun. Setelah mempertimbangkan berbagai pilihan, akhirnya kami sepakat menamainya "NEBO" yang merupakan singkatan dari N-Max Neo Turbo Indonesia. Nama ini mencerminkan semangat baru kami untuk menghadirkan energi positif dan persahabatan bagi seluruh anggota komunitas.
 
 										<br><br>
-										Komunitas NEBO pun resmi didirikan pada tanggal 20 Oktober, dengan jumlah anggota awal yang mendaftar sebanyak 15 orang. Hari itu menjadi momen bersejarah yang menandai terbentuknya komunitas yang kuat dan penuh semangat.
+										Komunitas NEBO pun resmi didirikan pada tanggal 20 Oktober 2024, dengan jumlah anggota awal yang mendaftar sebanyak 15 orang. Hari itu menjadi momen bersejarah yang menandai terbentuknya komunitas yang kuat dan penuh semangat.
 
 										<br><br>
 										Seiring berjalannya waktu, NEBO terus berkembang, menjadi rumah bagi para pengguna Nmax dari berbagai daerah di Indonesia. Komunitas ini bukan hanya sekadar tempat berkumpul, tetapi juga sebuah keluarga besar yang saling mendukung, berbagi, dan tumbuh bersama. Kami berharap NEBO dapat terus menjadi wadah yang nyaman dan menginspirasi bagi seluruh pengguna Nmax di Indonesia, menghadirkan semangat kebersamaan di setiap perjalanannya.
