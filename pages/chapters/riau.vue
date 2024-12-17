@@ -20,7 +20,7 @@
 				</div>
 				<div class="overflow-hidden">
 					<div class="mx-auto max-w-7xl px-6 pb-32 pt-36 sm:pt-60 lg:px-8 lg:pt-32">
-						<div>
+						<div class="mb-8">
 							<img src="/assets/images/chapters/riau.jpeg" alt="" class="max-w-[400px] mx-auto rounded-xl bg-gray-900/5 object-cover shadow-lg" />
 						</div>
 						<div class="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
