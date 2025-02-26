@@ -37,19 +37,19 @@
 							</div>
 							<div class="mt-10 grid grid-cols-2 space-y-3 md:space-y-0 md:flex items-center gap-x-3 lg:mt-0 lg:flex-shrink-0">
 								<a
-									href="https://wa.me/6285722437493?text=Halo,%20saya%20ingin%20bergabung%20dengan%20NEBO:%20Yamaha%20NMAX%20Neo%20Turbo%20Community.%20Mohon%20informasinya%20lebih%20lanjut.%20Terima%20kasih!%0A%0ASelamat%20Datang%20di%20Grup%20FORUM%20NEBO%20NMAX%20Neo%20Turbo.%0A%0AMari%20kita%20mengenal%20satu%20sama%20lain%20dengan%20mengisi%20bio%20data%20di%20bawah%20ini:%0A%0ANama%20asli%3A%20%5BNAMA%20ANDA%5D%0ANama%20panggilan%3A%20%5BNAMA%20PANGGILAN%5D%0ANama%20di%20WA%3A%20%5BNAMA%20DI%20WHATSAPP%5D%0AAlamat%3A%20%5BALAMAT%20ANDA%5D%0AKegiatan%20sehari%20hari%3A%20%5BKEGIATAN%20SEHARI%20HARI%5D%0AFoto/Video Unit/Motor Anda: [KIRIM FOTO UNIT/MOTOR ANDA]%0A%0AMari%20kita%20Jalin%20Silaturahmi%20Yang%20Baik%20Penuh%20Berkah.%0AJaga%20Nama%20Baik.%0ANEBO%20N_max%20Neo%20Turbo%20Community%0A%0ASalam%20Silaturahmi%20Membawa%20Berkah%0A%0A'NEBO%20SOLID🤝💪'"
+									:href="`https://wa.me/6285722437493?text=${registerMessage}`"
 									target="_blank"
 									class="text-sm font-semibold leading-6 text-gray-900">
 									Hubungi Rekrutmen <span aria-hidden="true">→</span>
 								</a>
 								<a
-									href="https://wa.me/6281223230300?text=Halo,%20saya%20ingin%20bergabung%20dengan%20NEBO:%20Yamaha%20NMAX%20Neo%20Turbo%20Community.%20Mohon%20informasinya%20lebih%20lanjut.%20Terima%20kasih!%0A%0ASelamat%20Datang%20di%20Grup%20FORUM%20NEBO%20NMAX%20Neo%20Turbo.%0A%0AMari%20kita%20mengenal%20satu%20sama%20lain%20dengan%20mengisi%20bio%20data%20di%20bawah%20ini:%0A%0ANama%20asli%3A%20%5BNAMA%20ANDA%5D%0ANama%20panggilan%3A%20%5BNAMA%20PANGGILAN%5D%0ANama%20di%20WA%3A%20%5BNAMA%20DI%20WHATSAPP%5D%0AAlamat%3A%20%5BALAMAT%20ANDA%5D%0AKegiatan%20sehari%20hari%3A%20%5BKEGIATAN%20SEHARI%20HARI%5D%0AFoto/Video Unit/Motor Anda: [KIRIM FOTO UNIT/MOTOR ANDA]%0A%0AMari%20kita%20Jalin%20Silaturahmi%20Yang%20Baik%20Penuh%20Berkah.%0AJaga%20Nama%20Baik.%0ANEBO%20N_max%20Neo%20Turbo%20Community%0A%0ASalam%20Silaturahmi%20Membawa%20Berkah%0A%0A'NEBO%20SOLID🤝💪'"
+									:href="`https://wa.me/6281223230300?text=${registerMessage}`"
 									target="_blank"
 									class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
 									Rekrutmen 1
 								</a>
 								<a
-									href="https://wa.me/6281214546616?text=Halo,%20saya%20ingin%20bergabung%20dengan%20NEBO:%20Yamaha%20NMAX%20Neo%20Turbo%20Community.%20Mohon%20informasinya%20lebih%20lanjut.%20Terima%20kasih!%0A%0ASelamat%20Datang%20di%20Grup%20FORUM%20NEBO%20NMAX%20Neo%20Turbo.%0A%0AMari%20kita%20mengenal%20satu%20sama%20lain%20dengan%20mengisi%20bio%20data%20di%20bawah%20ini:%0A%0ANama%20asli%3A%20%5BNAMA%20ANDA%5D%0ANama%20panggilan%3A%20%5BNAMA%20PANGGILAN%5D%0ANama%20di%20WA%3A%20%5BNAMA%20DI%20WHATSAPP%5D%0AAlamat%3A%20%5BALAMAT%20ANDA%5D%0AKegiatan%20sehari%20hari%3A%20%5BKEGIATAN%20SEHARI%20HARI%5D%0AFoto/Video Unit/Motor Anda: [KIRIM FOTO UNIT/MOTOR ANDA]%0A%0AMari%20kita%20Jalin%20Silaturahmi%20Yang%20Baik%20Penuh%20Berkah.%0AJaga%20Nama%20Baik.%0ANEBO%20N_max%20Neo%20Turbo%20Community%0A%0ASalam%20Silaturahmi%20Membawa%20Berkah%0A%0A'NEBO%20SOLID🤝💪'"
+									:href="`https://wa.me/6281214546616?text=${registerMessage}`"
 									target="_blank"
 									class="rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
 									Rekrutmen 2
@@ -135,19 +135,19 @@
 						</div>
 						<div class="mt-10 grid grid-cols-2 space-y-3 md:space-y-0 md:flex items-center gap-x-3 lg:mt-0 lg:flex-shrink-0">
 							<a
-								href="https://wa.me/6285722437493?text=Halo,%20saya%20ingin%20bergabung%20dengan%20NEBO:%20Yamaha%20NMAX%20Neo%20Turbo%20Community.%20Mohon%20informasinya%20lebih%20lanjut.%20Terima%20kasih!%0A%0ASelamat%20Datang%20di%20Grup%20FORUM%20NEBO%20NMAX%20Neo%20Turbo.%0A%0AMari%20kita%20mengenal%20satu%20sama%20lain%20dengan%20mengisi%20bio%20data%20di%20bawah%20ini:%0A%0ANama%20asli%3A%20%5BNAMA%20ANDA%5D%0ANama%20panggilan%3A%20%5BNAMA%20PANGGILAN%5D%0ANama%20di%20WA%3A%20%5BNAMA%20DI%20WHATSAPP%5D%0AAlamat%3A%20%5BALAMAT%20ANDA%5D%0AKegiatan%20sehari%20hari%3A%20%5BKEGIATAN%20SEHARI%20HARI%5D%0AFoto/Video Unit/Motor Anda: [KIRIM FOTO UNIT/MOTOR ANDA]%0A%0AMari%20kita%20Jalin%20Silaturahmi%20Yang%20Baik%20Penuh%20Berkah.%0AJaga%20Nama%20Baik.%0ANEBO%20N_max%20Neo%20Turbo%20Community%0A%0ASalam%20Silaturahmi%20Membawa%20Berkah%0A%0A'NEBO%20SOLID🤝💪'"
+								:href="`https://wa.me/6285722437493?text=${registerMessage}`"
 								target="_blank"
 								class="text-sm font-semibold leading-6 text-gray-900">
 								Hubungi Rekrutmen <span aria-hidden="true">→</span>
 							</a>
 							<a
-								href="https://wa.me/6281223230300?text=Halo,%20saya%20ingin%20bergabung%20dengan%20NEBO:%20Yamaha%20NMAX%20Neo%20Turbo%20Community.%20Mohon%20informasinya%20lebih%20lanjut.%20Terima%20kasih!%0A%0ASelamat%20Datang%20di%20Grup%20FORUM%20NEBO%20NMAX%20Neo%20Turbo.%0A%0AMari%20kita%20mengenal%20satu%20sama%20lain%20dengan%20mengisi%20bio%20data%20di%20bawah%20ini:%0A%0ANama%20asli%3A%20%5BNAMA%20ANDA%5D%0ANama%20panggilan%3A%20%5BNAMA%20PANGGILAN%5D%0ANama%20di%20WA%3A%20%5BNAMA%20DI%20WHATSAPP%5D%0AAlamat%3A%20%5BALAMAT%20ANDA%5D%0AKegiatan%20sehari%20hari%3A%20%5BKEGIATAN%20SEHARI%20HARI%5D%0AFoto/Video Unit/Motor Anda: [KIRIM FOTO UNIT/MOTOR ANDA]%0A%0AMari%20kita%20Jalin%20Silaturahmi%20Yang%20Baik%20Penuh%20Berkah.%0AJaga%20Nama%20Baik.%0ANEBO%20N_max%20Neo%20Turbo%20Community%0A%0ASalam%20Silaturahmi%20Membawa%20Berkah%0A%0A'NEBO%20SOLID🤝💪'"
+								:href="`https://wa.me/6281223230300?text=${registerMessage}`"
 								target="_blank"
 								class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
 								Rekrutmen 1
 							</a>
 							<a
-								href="https://wa.me/6281214546616?text=Halo,%20saya%20ingin%20bergabung%20dengan%20NEBO:%20Yamaha%20NMAX%20Neo%20Turbo%20Community.%20Mohon%20informasinya%20lebih%20lanjut.%20Terima%20kasih!%0A%0ASelamat%20Datang%20di%20Grup%20FORUM%20NEBO%20NMAX%20Neo%20Turbo.%0A%0AMari%20kita%20mengenal%20satu%20sama%20lain%20dengan%20mengisi%20bio%20data%20di%20bawah%20ini:%0A%0ANama%20asli%3A%20%5BNAMA%20ANDA%5D%0ANama%20panggilan%3A%20%5BNAMA%20PANGGILAN%5D%0ANama%20di%20WA%3A%20%5BNAMA%20DI%20WHATSAPP%5D%0AAlamat%3A%20%5BALAMAT%20ANDA%5D%0AKegiatan%20sehari%20hari%3A%20%5BKEGIATAN%20SEHARI%20HARI%5D%0AFoto/Video Unit/Motor Anda: [KIRIM FOTO UNIT/MOTOR ANDA]%0A%0AMari%20kita%20Jalin%20Silaturahmi%20Yang%20Baik%20Penuh%20Berkah.%0AJaga%20Nama%20Baik.%0ANEBO%20N_max%20Neo%20Turbo%20Community%0A%0ASalam%20Silaturahmi%20Membawa%20Berkah%0A%0A'NEBO%20SOLID🤝💪'"
+								:href="`https://wa.me/6281214546616?text=${registerMessage}`"
 								target="_blank"
 								class="rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
 								Rekrutmen 2
@@ -182,6 +182,8 @@ import { ref } from 'vue'
 
 import { StarIcon } from '@heroicons/vue/20/solid'
 import HeroSection from '~/components/home/HeroSection.vue';
+
+const registerMessage = "Selamat%20Datang%20di%20FORUM%20NEBO%20NMAX%20Neo%20Turbo%20Indonesia!%0A%0AHalo!%20Silakan%20perkenalkan%20diri%20dengan%20format%20berikut:%0A%0ANama%20Asli:%20NAMA%20ANDA%20(NAMA%20PANGGILAN)%0AAlamat:%20ALAMAT%20ANDA%0AKegiatan%20Sehari-hari:%20KEGIATAN%20SEHARI%20HARI%0AFoto/Video%20Motor:%20KIRIM%20FOTO%20MOTOR/SELFIE%0A%0AMari%20kita%20jalin%20silaturahmi,%20menjaga%20nama%20baik,%20dan%20membawa%20berkah%20dalam%20setiap%20pertemuan!";
 
 const missions = [
   {
