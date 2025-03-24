@@ -37,19 +37,19 @@
 							</div>
 							<div class="mt-10 grid grid-cols-2 space-y-3 md:space-y-0 md:flex items-center gap-x-3 lg:mt-0 lg:flex-shrink-0">
 								<a
-									:href="`https://wa.me/6285722437493?text=${registerMessage}`"
+									:href="`https://wa.me/6281221834228?text=${registerMessage}`"
 									target="_blank"
 									class="text-sm font-semibold leading-6 text-gray-900">
 									Hubungi Rekrutmen <span aria-hidden="true">→</span>
 								</a>
 								<a
-									:href="`https://wa.me/6281223230300?text=${registerMessage}`"
+									:href="`https://wa.me/6285320200057?text=${registerMessage}`"
 									target="_blank"
 									class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
 									Rekrutmen 1
 								</a>
 								<a
-									:href="`https://wa.me/6281214546616?text=${registerMessage}`"
+									:href="`https://wa.me/6281221834228?text=${registerMessage}`"
 									target="_blank"
 									class="rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
 									Rekrutmen 2
@@ -135,19 +135,19 @@
 						</div>
 						<div class="mt-10 grid grid-cols-2 space-y-3 md:space-y-0 md:flex items-center gap-x-3 lg:mt-0 lg:flex-shrink-0">
 							<a
-								:href="`https://wa.me/6285722437493?text=${registerMessage}`"
+								:href="`https://wa.me/6285320200057?text=${registerMessage}`"
 								target="_blank"
 								class="text-sm font-semibold leading-6 text-gray-900">
 								Hubungi Rekrutmen <span aria-hidden="true">→</span>
 							</a>
 							<a
-								:href="`https://wa.me/6281223230300?text=${registerMessage}`"
+								:href="`https://wa.me/6281221834228?text=${registerMessage}`"
 								target="_blank"
 								class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
 								Rekrutmen 1
 							</a>
 							<a
-								:href="`https://wa.me/6281214546616?text=${registerMessage}`"
+								:href="`https://wa.me/6285320200057?text=${registerMessage}`"
 								target="_blank"
 								class="rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
 								Rekrutmen 2
