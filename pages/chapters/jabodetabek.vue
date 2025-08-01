@@ -25,10 +25,10 @@
 						</div>
 						<div class="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
 							<div class="relative w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
-								<h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Selamat Datang di NEBO Jabodetabek!
+								<h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Selamat Datang di NEBO!
 								</h1>
 								<p class="mt-6 text-md leading-8 text-gray-600 sm:max-w-md lg:max-w-none">
-									Senang sekali bisa menyambut kamu sebagai bagian dari keluarga besar NEBO Jabodetabek. Di sini, kita tidak hanya berbagi pengalaman, ilmu, dan cerita tentang motor, tapi juga menjalin persaudaraan yang erat di setiap perjalanan.
+									Senang sekali bisa menyambut kamu sebagai bagian dari keluarga besar NEBO. Di sini, kita tidak hanya berbagi pengalaman, ilmu, dan cerita tentang motor, tapi juga menjalin persaudaraan yang erat di setiap perjalanan.
 									<br>
 									Mari bersama-sama menikmati setiap kilometer perjalanan, memperkuat solidaritas, dan menciptakan kenangan yang tak terlupakan. Jika ada yang perlu ditanyakan atau dibagikan, jangan ragu untuk menghubungi teman-teman NEBO lainnya.
 								</p>
@@ -39,19 +39,19 @@
 								</div>
 								<div class="mt-10 grid grid-cols-2 space-y-3 md:space-y-0 md:flex items-center gap-x-3 lg:mt-0 lg:flex-shrink-0">
 									<a
-										:href="`https://wa.me/6285156685691?text=${registerMessage}`"
+										:href="`https://wa.me/6285320200057?text=${registerMessage}`"
 										target="_blank"
 										class="text-sm font-semibold leading-6 text-gray-900">
 										Hubungi Rekrutmen <span aria-hidden="true">→</span>
 									</a>
 									<a
-										:href="`https://wa.me/6285156685691?text=${registerMessage}`"
+										:href="`https://wa.me/6285320200057?text=${registerMessage}`"
 										target="_blank"
 										class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
 										Rekrutmen 1
 									</a>
 									<a
-										:href="`https://wa.me/6287886939070?text=${registerMessage}`"
+										:href="`https://wa.me/6285320200057?text=${registerMessage}`"
 										target="_blank"
 										class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
 										Rekrutmen 2
