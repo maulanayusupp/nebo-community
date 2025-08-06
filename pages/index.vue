@@ -337,14 +337,12 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
-
 import { StarIcon } from '@heroicons/vue/20/solid';
 import HeroSection from '~/components/home/HeroSection.vue';
 import {
 	WHATSAPP_PHONES,
-	createWhatsAppMessage,
 	createWhatsAppLink,
+	createWhatsAppMessage,
 } from '~/utils/whatsapp';
 
 const registerMessage = createWhatsAppMessage();

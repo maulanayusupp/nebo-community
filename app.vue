@@ -2,32 +2,27 @@
 	<!-- Layout -->
 	<NuxtLayout :name="layout">
 		<!-- Page -->
-		<NuxtPage/>
+		<NuxtPage />
 	</NuxtLayout>
 </template>
 
 <script setup>
-  const config = useRuntimeConfig()
-	const layout = "custom";
+const config = useRuntimeConfig();
+const layout = 'custom';
 </script>
 
 <script>
-
 export default {
-	components: {
-	},
-	props: {
-	},
+	components: {},
+	props: {},
 	data() {
-		return {
-		}
+		return {};
 	},
 	created() {},
-	mounted() {
-    },
+	mounted() {},
 	beforeUnmount() {},
 	methods: {},
 	computed: {},
 	watch: {},
-}
+};
 </script>
