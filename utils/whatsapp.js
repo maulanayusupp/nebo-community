@@ -17,7 +17,7 @@ Halo! Silakan perkenalkan diri dengan format berikut:
 Nama Asli: NAMA ANDA (NAMA PANGGILAN)
 Alamat: ALAMAT ANDA
 Kegiatan Sehari-hari: KEGIATAN SEHARI-HARI
-Foto/Video Motor: KIRIM SELFIE BARENG MOTOR ANDA (WAJIB)
+Foto: FOTO SELFIE BARENG MOTOR ANDA (WAJIB)
 ${customInstructions}
 Mari kita jalin silaturahmi, menjaga nama baik, dan membawa berkah dalam setiap pertemuan!`;
 

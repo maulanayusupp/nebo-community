@@ -79,19 +79,19 @@
 								<p
 									class="mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none"
 								>
-									Komunitas ini tidak hanya berbagi tentang tips modifikasi dan
+									NEBO Indonesia tidak hanya berbagi tentang tips modifikasi dan
 									peningkatan performa, tetapi juga aktif mengadakan kegiatan
 									touring, kopdar, dan berbagai event seru lainnya. Bersama
 									NEBO, setiap anggota bisa merasakan sensasi berkendara yang
 									maksimal, sembari memperkuat tali persaudaraan sesama rider
-									NMAX.
+									Nmax Generasi Tiga.
 								</p>
 
 								<div class="mt-4 mb-6 font-bold">
 									Yuk, Gabung Gratis ke NEBO – Komunitas Seru Bagi Pengguna
 									Yamaha NMAX!
 									<div class="mt-2 font-semibold text-xs text-gray-500">
-										*Pada saat daftar sertakan foto atau unit Anda untuk
+										*Pada saat daftar sertakan foto selfie Anda dan motor untuk
 										verifikasi.
 									</div>
 								</div>
@@ -259,7 +259,7 @@
 								Yuk, Gabung Gratis ke NEBO – Komunitas Seru Bagi Pengguna Yamaha
 								NMAX!
 								<div class="mt-2 font-semibold text-xs text-gray-500">
-									*Pada saat daftar sertakan foto atau unit Anda untuk
+									*Pada saat daftar sertakan foto selfie Anda dan motor untuk
 									verifikasi.
 								</div>
 							</div>

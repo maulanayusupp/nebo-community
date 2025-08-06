@@ -98,7 +98,7 @@
 									Yuk, Gabung Gratis ke NEBO – Komunitas Seru Bagi Pengguna
 									Yamaha NMAX!
 									<div class="mt-2 font-semibold text-xs text-gray-500">
-										*Pada saat daftar sertakan foto atau unit Anda untuk
+										*Pada saat daftar sertakan foto selfie Anda dan motor untuk
 										verifikasi.
 									</div>
 								</div>
@@ -194,10 +194,7 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
-
 import { StarIcon } from '@heroicons/vue/20/solid';
-import HeroSection from '~/components/home/HeroSection.vue';
 
 const missions = [
 	{
