@@ -109,7 +109,7 @@
 										Rekrutmen 1
 									</a>
 									<a
-										:href="whatsappLinks.recruitment2"
+										:href="whatsappLinks.recruitment3"
 										target="_blank"
 										class="rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
 									>
@@ -229,7 +229,7 @@
 						<img
 							src="/assets/images/logos/nebo_logo.jpeg"
 							alt="Product screenshot"
-							class="w-full max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 w-full md:-ml-4 lg:-ml-0"
+							class="w-full max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 md:-ml-4 lg:-ml-0"
 							width="2432"
 							height="1442"
 						/>
@@ -354,6 +354,14 @@ const whatsappLinks = {
 	),
 	recruitment2: createWhatsAppLink(
 		WHATSAPP_PHONES.RECRUITMENT_2,
+		registerMessage
+	),
+	recruitment3: createWhatsAppLink(
+		WHATSAPP_PHONES.RECRUITMENT_3,
+		registerMessage
+	),
+	recruitment6: createWhatsAppLink(
+		WHATSAPP_PHONES.RECRUITMENT_6,
 		registerMessage
 	),
 };

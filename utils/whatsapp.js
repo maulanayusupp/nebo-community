@@ -4,6 +4,7 @@ export const WHATSAPP_PHONES = {
 	RECRUITMENT_3: '6282125181973', // Cikoy
 	RECRUITMENT_4: '6281214546616', // Cecenk
 	RECRUITMENT_5: '6281223230300', // Ibnu
+	RECRUITMENT_6: '6281221834228', // Adam
 };
 
 export const createWhatsAppMessage = ({
