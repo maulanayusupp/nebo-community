@@ -143,15 +143,15 @@ const missions = [
 
 const rules = [
 	{
-		name: 'Kopdar Bersifat Wajib',
+		name: 'Kopdar Wajib',
 		description:
-			'Kopdar diwajibkan bagi anggota yang memiliki waktu luang di luar pekerjaan atau urusan keluarga yang penting. Jarak yang terjangkau juga menjadi pertimbangan.<br />Bagi anggota di luar kota, seperti Garut atau kota lainnya, kehadiran sangat diapresiasi jika memungkinkan. Jika tidak, kami memaklumi, namun diharapkan untuk berupaya mencari sesama anggota NEBO di wilayah masing-masing.',
+			'Kopdar yang diwajibkan bagi anggota yang memiliki waktu luang di luar pekerjaan atau urusan keluarga yang penting. Jarak yang terjangkau juga menjadi pertimbangan.<br />Bagi anggota di luar kota, seperti Garut atau kota lainnya, kehadiran sangat diapresiasi jika memungkinkan. Jika tidak, kami memaklumi, namun diharapkan untuk berupaya mencari sesama anggota NEBO di wilayah masing-masing.',
 		icon: StarIcon,
 	},
 	{
 		name: 'Koordinator Wilayah',
 		description:
-			'Koordinator Wilayah adalah anggota yang bertugas mengkoordinasikan kegiatan di luar Kota Bandung. Misalnya, jika ada anggota di Bali yang ingin mengadakan kegiatan, mereka dapat membuat akun media sosial NEBO Bali, namun dengan catatan harus berkoordinasi terlebih dahulu dengan pengurus NEBO Pusat di Bandung.<br />Jika anggota di wilayah tersebut telah mencapai lebih dari 10 orang, maka dapat dibicarakan kembali untuk membentuk koordinator wilayah atau kepengurusan setempat.',
+			'Koordinator Wilayah adalah anggota yang bertugas mengkoordinasikan kelompok anggota dan kegiatan di luar wilayah Kota Bandung (NEBO Pusat). Misalnya, jika ada anggota di Bali yang ingin mengadakan kegiatan, mereka dapat membuat akun media sosial NEBO Bali, namun dengan catatan harus berkoordinasi terlebih dahulu dengan pengurus NEBO Pusat di Bandung.<br />Jika anggota di wilayah tersebut telah mencapai lebih dari 10 orang, maka dapat dibicarakan kembali untuk membentuk koordinator wilayah atau kepengurusan setempat.',
 		icon: StarIcon,
 	},
 	{
