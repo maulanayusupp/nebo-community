@@ -116,7 +116,7 @@ const navigation = {
 		{ name: 'Tentang Kami', href: '/about' },
 		{ name: 'Aturan Komunitas', href: '/rules' },
 		{ name: 'Daftar Member', href: '/register' },
-		{ name: 'Beranda', href: '/' },
+		{ name: 'Home', href: '/' },
 	],
 	regional: [
 		{ name: 'Jabodetabek', href: '/chapters/jabodetabek' },
