@@ -10,86 +10,97 @@
 						alt="Company name"
 					/>
 				</div>
-				<div class="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
-					<div class="md:grid md:grid-cols-2 md:gap-8">
-						<div>
-							<h3 class="text-sm font-semibold leading-6 text-gray-900">
-								About
-							</h3>
-							<ul role="list" class="mt-6 space-y-4">
-								<li v-for="item in navigation.company" :key="item.name">
-									<a
-										:href="item.href"
-										class="text-sm leading-6 text-gray-600 hover:text-gray-900"
-										>{{ item.name }}</a
-									>
-								</li>
-							</ul>
-						</div>
-						<div class="mt-10 md:mt-0">
-							<h3 class="text-sm font-semibold leading-6 text-gray-900">
-								Legal
-							</h3>
-							<ul role="list" class="mt-6 space-y-4">
-								<li v-for="item in navigation.legal" :key="item.name">
-									<a
-										:href="item.href"
-										class="text-sm leading-6 text-gray-600 hover:text-gray-900"
-										>{{ item.name }}</a
-									>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div
-				class="mt-16 border-t border-gray-900/10 pt-8 sm:mt-20 lg:mt-24 lg:flex lg:items-center lg:justify-between"
-			>
-				<div>
-					<h3 class="text-sm font-semibold leading-6 text-gray-900">
-						Subscribe to our newsletter
-					</h3>
-					<p class="mt-2 text-sm leading-6 text-gray-600">
-						The latest news, articles, and resources, sent to your inbox weekly.
-					</p>
-				</div>
-				<form class="mt-6 sm:flex sm:max-w-md lg:mt-0">
-					<label for="email-address" class="sr-only">Email address</label>
-					<input
-						type="email"
-						name="email-address"
-						id="email-address"
-						autocomplete="email"
-						required=""
-						class="w-full min-w-0 appearance-none rounded-md border-0 bg-white px-3 py-1.5 text-base text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:w-56 sm:text-sm sm:leading-6"
-						placeholder="Enter your email"
-					/>
-					<div class="mt-4 sm:ml-4 sm:mt-0 sm:flex-shrink-0">
-						<button
-							type="submit"
-							class="flex w-full items-center justify-center rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+				<div
+					class="mt-16 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:col-span-2 xl:mt-0"
+				>
+					<!-- Tentang NEBO Section -->
+					<div>
+						<h3
+							class="text-base font-bold leading-6 text-gray-900 mb-6 border-b border-gray-200 pb-2"
 						>
-							Subscribe
-						</button>
+							Tentang NEBO
+						</h3>
+						<ul role="list" class="space-y-3">
+							<li v-for="item in navigation.company" :key="item.name">
+								<NuxtLink
+									:to="item.href"
+									class="text-sm leading-6 text-gray-600 hover:text-blue-600 transition-colors duration-200 flex items-center group"
+								>
+									<span
+										class="w-2 h-2 bg-blue-500 rounded-full mr-3 opacity-0 group-hover:opacity-100 transition-opacity duration-200"
+									></span>
+									{{ item.name }}
+								</NuxtLink>
+							</li>
+						</ul>
 					</div>
-				</form>
-			</div>
-			<div
-				class="mt-8 border-t border-gray-900/10 pt-8 md:flex md:items-center md:justify-between"
-			>
-				<div class="flex space-x-6 md:order-2">
-					<a
-						v-for="item in navigation.social"
-						:key="item.name"
-						:href="item.href"
-						class="text-gray-400 hover:text-gray-500"
-					>
-						<span class="sr-only">{{ item.name }}</span>
-						<component :is="item.icon" class="h-6 w-6" aria-hidden="true" />
-					</a>
+
+					<!-- Regional NEBO Section -->
+					<div>
+						<h3
+							class="text-base font-bold leading-6 text-gray-900 mb-6 border-b border-gray-200 pb-2"
+						>
+							Regional NEBO
+						</h3>
+						<ul role="list" class="space-y-3">
+							<li v-for="item in navigation.regional" :key="item.name">
+								<NuxtLink
+									:to="item.href"
+									class="text-sm leading-6 text-gray-600 hover:text-blue-600 transition-colors duration-200 flex items-center group"
+								>
+									<span
+										class="w-2 h-2 bg-green-500 rounded-full mr-3 opacity-0 group-hover:opacity-100 transition-opacity duration-200"
+									></span>
+									{{ item.name }}
+								</NuxtLink>
+							</li>
+						</ul>
+					</div>
+
+					<!-- Kontak & Media Sosial Section -->
+					<div>
+						<h3
+							class="text-base font-bold leading-6 text-gray-900 mb-6 border-b border-gray-200 pb-2"
+						>
+							Kontak & Media Sosial
+						</h3>
+						<div class="space-y-4">
+							<div class="flex items-center space-x-3">
+								<div class="flex space-x-3">
+									<a
+										v-for="item in navigation.social"
+										:key="item.name"
+										:href="item.href"
+										target="_blank"
+										rel="noopener noreferrer"
+										class="text-gray-400 hover:text-gray-600 transition-colors duration-200 transform hover:scale-110"
+										:title="item.name"
+									>
+										<component
+											:is="item.icon"
+											class="h-6 w-6"
+											aria-hidden="true"
+										/>
+									</a>
+								</div>
+							</div>
+							<div class="text-sm text-gray-600">
+								<p class="mb-2">
+									Email:
+									<a
+										href="mailto:nebo.indonesia@gmail.com"
+										class="text-blue-600 hover:text-blue-800 transition-colors duration-200"
+										>nebo.indonesia@gmail.com</a
+									>
+								</p>
+							</div>
+						</div>
+					</div>
 				</div>
-				<p class="mt-8 text-xs leading-5 text-gray-500 md:order-1 md:mt-0">
+			</div>
+
+			<div class="mt-8 border-t border-gray-900/10 pt-8 flex justify-center">
+				<p class="text-xs leading-5 text-gray-500">
 					&copy; 2024 NEBO: NMAX Neo Turbo Community. All rights reserved.
 				</p>
 			</div>
@@ -101,38 +112,20 @@
 import { defineComponent, h } from 'vue';
 
 const navigation = {
-	solutions: [
-		{ name: 'Products', href: '#' },
-		{ name: 'Insights', href: '#' },
-	],
 	company: [
-		{ name: 'About', href: '#' },
-		{ name: 'Blog', href: '#' },
-		{ name: 'Partners', href: '#' },
+		{ name: 'Tentang Kami', href: '/about' },
+		{ name: 'Aturan Komunitas', href: '/rules' },
+		{ name: 'Daftar Member', href: '/register' },
+		{ name: 'Beranda', href: '/' },
 	],
-	legal: [
-		{ name: 'Community Rules', href: '#' },
-		{ name: 'Privacy', href: '#' },
-		{ name: 'Terms', href: '#' },
+	regional: [
+		{ name: 'Jabodetabek', href: '/chapters/jabodetabek' },
+		// { name: 'Riau', href: '/chapters/riau' },
 	],
 	social: [
 		{
-			name: 'Facebook',
-			href: 'https://www.instagram.com/nebo_nmaxneoturbo',
-			icon: defineComponent({
-				render: () =>
-					h('svg', { fill: 'currentColor', viewBox: '0 0 24 24' }, [
-						h('path', {
-							'fill-rule': 'evenodd',
-							d: 'M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z',
-							'clip-rule': 'evenodd',
-						}),
-					]),
-			}),
-		},
-		{
 			name: 'Instagram',
-			href: 'https://www.instagram.com/nebo_nmaxneoturbo',
+			href: 'https://www.instagram.com/nebo_idn/',
 			icon: defineComponent({
 				render: () =>
 					h('svg', { fill: 'currentColor', viewBox: '0 0 24 24' }, [
@@ -145,15 +138,13 @@ const navigation = {
 			}),
 		},
 		{
-			name: 'YouTube',
-			href: 'https://www.instagram.com/nebo_nmaxneoturbo',
+			name: 'TikTok',
+			href: 'https://www.tiktok.com/@nebo_official.022?is_from_webapp=1&sender_device=pc',
 			icon: defineComponent({
 				render: () =>
 					h('svg', { fill: 'currentColor', viewBox: '0 0 24 24' }, [
 						h('path', {
-							'fill-rule': 'evenodd',
-							d: 'M19.812 5.418c.861.23 1.538.907 1.768 1.768C21.998 8.746 22 12 22 12s0 3.255-.418 4.814a2.504 2.504 0 0 1-1.768 1.768c-1.56.419-7.814.419-7.814.419s-6.255 0-7.814-.419a2.505 2.505 0 0 1-1.768-1.768C2 15.255 2 12 2 12s0-3.255.417-4.814a2.507 2.507 0 0 1 1.768-1.768C5.744 5 11.998 5 11.998 5s6.255 0 7.814.418ZM15.194 12 10 15V9l5.194 3Z',
-							'clip-rule': 'evenodd',
+							d: 'M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-.88-.05A6.33 6.33 0 0 0 5.16 20.5a6.33 6.33 0 0 0 10.14-5.09V7.5a8.16 8.16 0 0 0 4.65 1.46v-3.32a4.84 4.84 0 0 1-.36.05z',
 						}),
 					]),
 			}),
