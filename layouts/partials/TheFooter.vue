@@ -11,7 +11,7 @@
 					/>
 				</div>
 				<div
-					class="mt-16 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:col-span-2 xl:mt-0"
+					class="mt-16 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-2 xl:col-span-2 xl:mt-0"
 				>
 					<!-- Tentang NEBO Section -->
 					<div>
@@ -36,7 +36,7 @@
 					</div>
 
 					<!-- Regional NEBO Section -->
-					<div>
+					<!-- <div>
 						<h3
 							class="text-base font-bold leading-6 text-gray-900 mb-6 border-b border-gray-200 pb-2"
 						>
@@ -55,7 +55,7 @@
 								</NuxtLink>
 							</li>
 						</ul>
-					</div>
+					</div> -->
 
 					<!-- Kontak & Media Sosial Section -->
 					<div>
