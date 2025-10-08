@@ -106,7 +106,7 @@
 										Rekrutmen 1
 									</a>
 									<a
-										:href="whatsappLinks.recruitment5"
+										:href="whatsappLinks.recruitment6"
 										target="_blank"
 										class="rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
 									>
@@ -216,14 +216,14 @@
 									Hubungi Rekrutmen <span aria-hidden="true">→</span>
 								</span>
 								<a
-									:href="whatsappLinks.recruitment4"
+									:href="whatsappLinks.recruitment1"
 									target="_blank"
 									class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
 								>
 									Rekrutmen 1
 								</a>
 								<a
-									:href="whatsappLinks.recruitment5"
+									:href="whatsappLinks.recruitment3"
 									target="_blank"
 									class="rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
 								>
@@ -297,8 +297,16 @@ const whatsappLinks = {
 		WHATSAPP_PHONES.RECRUITMENT_4,
 		registerMessage
 	),
-	recruitment5: createWhatsAppLink(
-		WHATSAPP_PHONES.RECRUITMENT_5,
+	recruitment6: createWhatsAppLink(
+		WHATSAPP_PHONES.RECRUITMENT_6,
+		registerMessage
+	),
+	recruitment1: createWhatsAppLink(
+		WHATSAPP_PHONES.RECRUITMENT_1,
+		registerMessage
+	),
+	recruitment3: createWhatsAppLink(
+		WHATSAPP_PHONES.RECRUITMENT_3,
 		registerMessage
 	),
 };
