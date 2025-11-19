@@ -352,10 +352,6 @@ const whatsappLinks = {
 		WHATSAPP_PHONES.RECRUITMENT_1,
 		registerMessage
 	),
-	recruitment2: createWhatsAppLink(
-		WHATSAPP_PHONES.RECRUITMENT_2,
-		registerMessage
-	),
 	recruitment3: createWhatsAppLink(
 		WHATSAPP_PHONES.RECRUITMENT_3,
 		registerMessage
