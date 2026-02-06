@@ -96,7 +96,7 @@ const members = ref([
 		alias: 'Irwan',
 		name: 'Irwan Nurfajar',
 		role: 'PENASEHAT',
-		nra: '009F',
+		nra: '019',
 		photo:
 			'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop',
 	},
@@ -245,12 +245,11 @@ const members = ref([
 	},
 	{
 		id: 20,
-		alias: 'Adam',
-		name: 'Adam NR',
+		alias: 'AdamNR',
+		name: 'Adam Nugraha',
 		role: 'SUB BIDANG MARCHANDISE & PROMOSI',
 		nra: '035',
-		photo:
-			'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop',
+		photo: '/assets/images/members/adam.png',
 	},
 	{
 		id: 21,
