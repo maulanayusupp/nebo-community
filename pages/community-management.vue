@@ -157,7 +157,7 @@ const members = ref([
 		name: 'Ahmad Kahfi Sobar',
 		role: 'KETUA BIDANG KEANGGOTAAN',
 		nra: '094',
-		photo: '/assets/images/members/kahfi.png',
+		photo: '/assets/images/members/kahfii.png',
 	},
 	{
 		id: 11,
