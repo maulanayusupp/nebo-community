@@ -102,6 +102,7 @@ const navigation = [
 	{ name: 'Peraturan', href: '/rules' },
 	{ name: 'Daftar Member', href: '/register' },
 	{ name: 'Tentang Kami', href: '/about' },
+	{ name: 'Struktur Kepengurusan', href: '/community-management' },
 	// { name: 'Products', href: '#' },
 ];
 
