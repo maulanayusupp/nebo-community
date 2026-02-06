@@ -182,8 +182,7 @@ const members = ref([
 		name: 'Egi Mardiana',
 		role: 'SUB BIDANG KOPDAR',
 		nra: '008',
-		photo:
-			'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop',
+		photo: '/assets/images/members/egi.png',
 	},
 	{
 		id: 14,
@@ -191,8 +190,7 @@ const members = ref([
 		name: 'MR Eka Saputra',
 		role: 'SUB BIDANG TOURING',
 		nra: '155',
-		photo:
-			'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop',
+		photo: '/assets/images/members/beka.png',
 	},
 	{
 		id: 15,
