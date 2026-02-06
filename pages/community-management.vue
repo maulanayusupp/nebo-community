@@ -79,8 +79,7 @@ const members = ref([
 		name: 'Raden Dani Putra',
 		role: 'PEMBINA',
 		nra: '004F',
-		photo:
-			'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop',
+		photo: '/assets/images/members/wahaji.png',
 	},
 	{
 		id: 2,
@@ -226,11 +225,10 @@ const members = ref([
 	{
 		id: 18,
 		alias: 'Ben KW',
-		name: 'Ben Raya',
+		name: 'Beni Rindayana',
 		role: 'SUB BIDANG PUBLIKASI & DOKUMENTASI',
 		nra: '198',
-		photo:
-			'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop',
+		photo: '/assets/images/members/benraya.png',
 	},
 	{
 		id: 19,
@@ -273,8 +271,7 @@ const members = ref([
 		name: 'Ali Nurdin',
 		role: 'SUB BIDANG LOGISTIK',
 		nra: '135',
-		photo:
-			'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop',
+		photo: '/assets/images/members/ali.png',
 	},
 ]);
 
