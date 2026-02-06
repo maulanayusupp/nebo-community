@@ -162,12 +162,11 @@ const members = ref([
 	},
 	{
 		id: 11,
-		alias: 'Chikoy',
-		name: 'Eko Bagus',
+		alias: 'Chikoyz',
+		name: 'Ekko Bagus',
 		role: 'SUB BIDANG REGISTRASI DAN KTA',
 		nra: '018',
-		photo:
-			'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop',
+		photo: '/assets/images/members/chikoyz.png',
 	},
 	{
 		id: 12,
@@ -202,8 +201,7 @@ const members = ref([
 		name: 'Yudi Abdul Rohim',
 		role: 'KETUA BIDANG HUKUM & ADVOKASI',
 		nra: '058',
-		photo:
-			'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop',
+		photo: '/assets/images/members/yudi.png',
 	},
 	{
 		id: 16,
