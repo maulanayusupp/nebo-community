@@ -97,8 +97,7 @@ const members = ref([
 		name: 'Irwan Nurfajar',
 		role: 'PENASEHAT',
 		nra: '019',
-		photo:
-			'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop',
+		photo: '/assets/images/members/irwan.png',
 	},
 	{
 		id: 4,
@@ -142,8 +141,7 @@ const members = ref([
 		name: 'Aceng Ridwan Anshori',
 		role: 'BENDAHARA UMUM',
 		nra: '003F',
-		photo:
-			'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop',
+		photo: '/assets/images/members/ceceng.png',
 	},
 	{
 		id: 9,
@@ -248,7 +246,7 @@ const members = ref([
 		alias: 'AdamNR',
 		name: 'Adam Nugraha',
 		role: 'SUB BIDANG MARCHANDISE & PROMOSI',
-		nra: '035',
+		nra: '026',
 		photo: '/assets/images/members/adam.png',
 	},
 	{
