@@ -104,8 +104,7 @@ const members = ref([
 		name: 'Sopi Sopian',
 		role: 'KETUA UMUM',
 		nra: '001F',
-		photo:
-			'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop',
+		photo: '/assets/images/members/oppie.png',
 	},
 	{
 		id: 5,
@@ -122,8 +121,7 @@ const members = ref([
 		name: 'Yoga Dewo Broto',
 		role: 'SEKRETARIS UMUM',
 		nra: '007',
-		photo:
-			'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop',
+		photo: '/assets/images/members/yoga.png',
 	},
 	{
 		id: 7,
@@ -131,8 +129,7 @@ const members = ref([
 		name: 'Victor Januar Hendrawan',
 		role: 'WAKIL SEKRETARIS UMUM',
 		nra: '093',
-		photo:
-			'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop',
+		photo: '/assets/images/members/victor.png',
 	},
 	{
 		id: 8,
@@ -148,8 +145,7 @@ const members = ref([
 		name: 'Irham Rahardiansyah',
 		role: 'WAKIL BENDAHARA UMUM',
 		nra: '024',
-		photo:
-			'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop',
+		photo: '/assets/images/members/azuy.png',
 	},
 	{
 		id: 10,
@@ -231,8 +227,7 @@ const members = ref([
 		name: 'Dedy Budianto',
 		role: 'KETUA BIDANG DANA USAHA',
 		nra: '032',
-		photo:
-			'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop',
+		photo: '/assets/images/members/dedy.png',
 	},
 	{
 		id: 20,
@@ -248,8 +243,7 @@ const members = ref([
 		name: 'Raka Kharisma Adhadira',
 		role: 'SUB BIDANG LOGISTIK',
 		nra: '105',
-		photo:
-			'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop',
+		photo: '/assets/images/members/raka.png',
 	},
 	{
 		id: 22,
@@ -257,8 +251,7 @@ const members = ref([
 		name: 'Ferry',
 		role: 'SUB BIDANG LOGISTIK',
 		nra: '006',
-		photo:
-			'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop',
+		photo: '/assets/images/members/ferry.png',
 	},
 	{
 		id: 23,
