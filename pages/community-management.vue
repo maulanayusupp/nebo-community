@@ -77,7 +77,7 @@ const members = ref([
 		id: 1,
 		alias: 'Wa Haji',
 		name: 'Raden Dani Putra',
-		role: 'DEWAN PEMBINA',
+		role: 'PEMBINA',
 		nra: '004F',
 		photo:
 			'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop',
@@ -86,7 +86,7 @@ const members = ref([
 		id: 2,
 		alias: 'Ibnu',
 		name: 'Ibnu Malik',
-		role: 'DEWAN PENGAWAS',
+		role: 'PENGAWAS',
 		nra: '002F',
 		photo:
 			'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop',
