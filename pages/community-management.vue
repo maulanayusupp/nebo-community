@@ -108,7 +108,7 @@ const members = ref([
 	{
 		id: 5,
 		alias: 'EB',
-		name: 'Ery Biantara',
+		name: 'ER Biantara',
 		role: 'WAKIL KETUA UMUM',
 		nra: '005F',
 		photo: '/assets/images/members/eb.png',
