@@ -169,8 +169,7 @@ const members = ref([
 		name: 'Mochamad Alfian Fawzie',
 		role: 'KETUA BIDANG KEGIATAN',
 		nra: '020',
-		photo:
-			'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop',
+		photo: '/assets/images/members/omben.png',
 	},
 	{
 		id: 13,
