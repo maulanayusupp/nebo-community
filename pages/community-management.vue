@@ -5,7 +5,7 @@
 		<!-- Header Section -->
 		<div class="max-w-6xl mx-auto mb-16 text-center">
 			<h1 class="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">
-				Struktur Kepengurusan
+				Struktur Kepengurusan (2026-2028)
 			</h1>
 
 			<div class="h-1 w-24 bg-indigo-600 mx-auto mb-6"></div>

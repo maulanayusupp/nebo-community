@@ -113,10 +113,11 @@ import { defineComponent, h } from 'vue';
 
 const navigation = {
 	company: [
-		{ name: 'Tentang Kami', href: '/about' },
-		{ name: 'Aturan Komunitas', href: '/rules' },
-		{ name: 'Daftar Member', href: '/register' },
 		{ name: 'Home', href: '/' },
+		{ name: 'Peraturan', href: '/rules' },
+		{ name: 'Daftar Member', href: '/register' },
+		{ name: 'Tentang Kami', href: '/about' },
+		{ name: 'Struktur Kepengurusan', href: '/community-management' },
 	],
 	regional: [
 		{ name: 'Jabodetabek', href: '/chapters/jabodetabek' },
