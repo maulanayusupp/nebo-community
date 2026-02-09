@@ -87,8 +87,7 @@ const members = ref([
 		name: 'Ibnu Malik',
 		role: 'PENGAWAS',
 		nra: '002F',
-		photo:
-			'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop',
+		photo: '/assets/images/members/ibnu.png',
 	},
 	{
 		id: 3,
@@ -112,8 +111,7 @@ const members = ref([
 		name: 'Ery Biantara',
 		role: 'WAKIL KETUA UMUM',
 		nra: '005F',
-		photo:
-			'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop',
+		photo: '/assets/images/members/eb.png',
 	},
 	{
 		id: 6,
