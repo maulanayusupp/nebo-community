@@ -2,13 +2,13 @@
 	<div>
 		<main>
 			<!-- Rules -->
-			<div class="overflow-hidden bg-white py-24 sm:py-32">
+			<div class="overflow-hidden py-24 sm:py-32">
 				<div class="mx-auto max-w-7xl px-6 lg:px-8">
 					<div class="max-w-sm m-auto">
 						<img
-							src="/assets/images/logos/nebo_logo.jpeg"
+							src="/assets/images/logos/NEBO.PNG"
 							alt="Product screenshot"
-							class="w-full max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 md:-ml-4 lg:-ml-0"
+							class="w-full max-w-none md:-ml-4 lg:-ml-0"
 							width="2432"
 							height="1442"
 						/>
@@ -17,22 +17,22 @@
 						<div class="lg:pr-8 lg:pt-4">
 							<div class="w-full">
 								<p
-									class="mt-10 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
+									class="mt-10 text-3xl font-bold tracking-tight text-brand-text sm:text-4xl"
 								>
 									Peraturan Keanggotaan
 								</p>
 								<dl
-									class="mt-10 text-base leading-7 text-gray-600 lg:max-w-none grid grid-cols-1 md:grid-cols-2"
+									class="mt-10 text-base leading-7 text-brand-muted lg:max-w-none grid grid-cols-1 md:grid-cols-2"
 								>
 									<div
 										v-for="mission in missions"
 										:key="mission.name"
 										class="relative pl-9 mb-6"
 									>
-										<dt class="inline font-semibold text-gray-900">
+										<dt class="inline font-semibold text-brand-text">
 											<component
 												:is="mission.icon"
-												class="absolute left-1 top-1 h-5 w-5 text-yellow-600"
+												class="absolute left-1 top-1 h-5 w-5 text-brand-accent"
 												aria-hidden="true"
 											/>
 											{{ mission.name }}
@@ -44,22 +44,22 @@
 							</div>
 						</div>
 					</div>
-					<hr class="mt-10 mb-5" />
+					<hr class="mt-10 mb-5 border-brand-border" />
 					<div>
 						<p
-							class="mt-10 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
+							class="mt-10 text-3xl font-bold tracking-tight text-brand-text sm:text-4xl"
 						>
 							Informasi Dasar
 						</p>
 
 						<dl
-							class="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none"
+							class="mt-10 max-w-xl space-y-8 text-base leading-7 text-brand-muted lg:max-w-none"
 						>
 							<div v-for="rule in rules" :key="rule.name" class="relative pl-9">
-								<dt class="inline font-semibold text-gray-900">
+								<dt class="inline font-semibold text-brand-text">
 									<component
 										:is="rule.icon"
-										class="absolute left-1 top-1 h-5 w-5 text-yellow-600"
+										class="absolute left-1 top-1 h-5 w-5 text-brand-accent"
 										aria-hidden="true"
 									/>
 									{{ rule.name }}

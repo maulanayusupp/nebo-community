@@ -1,15 +1,16 @@
 <template>
-	<div
-		class="min-h-screen bg-gradient-to-b from-gray-50 to-white py-12 px-4 sm:px-6 lg:px-8 mt-20"
-	>
+	<div class="min-h-screen py-12 px-4 sm:px-6 lg:px-8 mt-20">
 		<!-- Header Section -->
 		<div class="max-w-6xl mx-auto mb-16 text-center">
-			<h1 class="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">
-				Struktur Kepengurusan (2026-2028)
+			<h1 class="text-4xl sm:text-5xl font-bold text-brand-text mb-4">
+				Struktur Kepengurusan
 			</h1>
+			<p class="text-xl font-semibold text-brand-accent mb-4">
+				Periode 2026 - 2028
+			</p>
 
-			<div class="h-1 w-24 bg-indigo-600 mx-auto mb-6"></div>
-			<p class="text-lg text-gray-700 max-w-3xl mx-auto">
+			<div class="h-1 w-24 bg-brand-accent mx-auto mb-6"></div>
+			<p class="text-lg text-brand-muted max-w-3xl mx-auto">
 				Berikut adalah struktur kepengurusan NEBO pusat, yang terdiri dari
 				{{ members.length }} anggota yang berdedikasi dengan visi dan misi
 				membangun untuk bersama.
@@ -18,18 +19,16 @@
 
 		<!-- Organization Info Card -->
 		<div class="max-w-6xl mx-auto mb-16">
-			<div
-				class="bg-gradient-to-r from-indigo-50 to-blue-50 rounded-lg border border-indigo-200 p-8"
-			>
+			<div class="bg-brand-surface rounded-lg border border-brand-border p-8">
 				<div class="flex items-center gap-4 mb-4">
 					<div>
-						<h2 class="text-2xl font-bold text-gray-900">NEBO PUSAT</h2>
-						<p class="text-indigo-700 font-semibold">
+						<h2 class="text-2xl font-bold text-brand-text">NEBO PUSAT</h2>
+						<p class="text-brand-accent font-semibold">
 							{{ members.length }} Anggota Kepengurusan
 						</p>
 					</div>
 				</div>
-				<p class="text-gray-700 leading-relaxed">
+				<p class="text-brand-muted leading-relaxed">
 					Tim kepengurusan NEBO dipenuhi sosok-sosok energik yang siap melaju
 					bersama membesarkan nama NEBO INDONESIA. Setiap anggota membawa
 					keahlian unik, menyatukan langkah, dan menggerakkan komunitas agar
@@ -44,7 +43,7 @@
 				<div
 					v-for="member in members"
 					:key="member.id"
-					class="bg-white rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 p-8"
+					class="bg-brand-slate rounded-xl p-8"
 				>
 					<community-member-card :member="member" />
 				</div>
@@ -52,19 +51,19 @@
 		</div>
 
 		<!-- Stats Section -->
-		<div class="max-w-6xl mx-auto mt-16 pt-12 border-t border-gray-200">
+		<div class="max-w-6xl mx-auto mt-16 pt-12 border-t border-brand-border">
 			<div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-center">
 				<div>
-					<div class="text-4xl font-bold text-indigo-600">
+					<div class="text-4xl font-bold text-brand-accent">
 						{{ members.length }}
 					</div>
-					<p class="text-gray-600 mt-2">Anggota Kepengurusan</p>
+					<p class="text-brand-muted mt-2">Anggota Kepengurusan</p>
 				</div>
 				<div>
-					<div class="text-4xl font-bold text-indigo-600">
+					<div class="text-4xl font-bold text-brand-accent">
 						{{ uniqueRoles.length }}
 					</div>
-					<p class="text-gray-600 mt-2">Divisi Kepengurusan</p>
+					<p class="text-brand-muted mt-2">Divisi Kepengurusan</p>
 				</div>
 			</div>
 		</div>
@@ -199,8 +198,7 @@ const members = ref([
 		name: 'Ridwan G',
 		role: 'SUB BIDANG HUKUM & ADVOKASI',
 		nra: '096',
-		photo:
-			'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop',
+		photo: '/assets/images/members/ridwan_rg.png',
 	},
 	{
 		id: 17,

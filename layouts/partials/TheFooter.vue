@@ -1,5 +1,5 @@
 <template>
-	<footer class="bg-white" aria-labelledby="footer-heading">
+	<footer class="bg-brand-ink" aria-labelledby="footer-heading">
 		<h2 id="footer-heading" class="sr-only">Footer</h2>
 		<div class="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
 			<div class="xl:grid xl:grid-cols-3 xl:gap-8">
@@ -16,7 +16,7 @@
 					<!-- Tentang NEBO Section -->
 					<div>
 						<h3
-							class="text-base font-bold leading-6 text-gray-900 mb-6 border-b border-gray-200 pb-2"
+							class="text-base font-bold leading-6 text-brand-text mb-6 border-b border-brand-border pb-2"
 						>
 							Tentang NEBO
 						</h3>
@@ -24,10 +24,10 @@
 							<li v-for="item in navigation.company" :key="item.name">
 								<NuxtLink
 									:to="item.href"
-									class="text-sm leading-6 text-gray-600 hover:text-blue-600 transition-colors duration-200 flex items-center group"
+									class="text-sm leading-6 text-brand-muted hover:text-brand-accent transition-colors duration-200 flex items-center group"
 								>
 									<span
-										class="w-2 h-2 bg-blue-500 rounded-full mr-3 opacity-0 group-hover:opacity-100 transition-opacity duration-200"
+										class="w-2 h-2 bg-brand-accent rounded-full mr-3 opacity-0 group-hover:opacity-100 transition-opacity duration-200"
 									></span>
 									{{ item.name }}
 								</NuxtLink>
@@ -60,7 +60,7 @@
 					<!-- Kontak & Media Sosial Section -->
 					<div>
 						<h3
-							class="text-base font-bold leading-6 text-gray-900 mb-6 border-b border-gray-200 pb-2"
+							class="text-base font-bold leading-6 text-brand-text mb-6 border-b border-brand-border pb-2"
 						>
 							Kontak & Media Sosial
 						</h3>
@@ -73,7 +73,7 @@
 										:href="item.href"
 										target="_blank"
 										rel="noopener noreferrer"
-										class="text-gray-400 hover:text-gray-600 transition-colors duration-200 transform hover:scale-110"
+										class="text-brand-muted hover:text-brand-accent transition-colors duration-200 transform hover:scale-110"
 										:title="item.name"
 									>
 										<component
@@ -84,12 +84,12 @@
 									</a>
 								</div>
 							</div>
-							<div class="text-sm text-gray-600">
+							<div class="text-sm text-brand-muted">
 								<p class="mb-2">
 									Email:
 									<a
 										href="mailto:nebo.indonesia@gmail.com"
-										class="text-blue-600 hover:text-blue-800 transition-colors duration-200"
+										class="text-brand-accent hover:text-brand-accent-strong transition-colors duration-200"
 										>nebo.indonesia@gmail.com</a
 									>
 								</p>
@@ -99,8 +99,10 @@
 				</div>
 			</div>
 
-			<div class="mt-8 border-t border-gray-900/10 pt-8 flex justify-center">
-				<p class="text-xs leading-5 text-gray-500">
+			<div
+				class="mt-8 border-t border-brand-border/70 pt-8 flex justify-center"
+			>
+				<p class="text-xs leading-5 text-brand-muted">
 					&copy; 2024 NEBO: NMAX Neo Turbo Community. All rights reserved.
 				</p>
 			</div>

@@ -2,332 +2,553 @@
 	<div>
 		<main>
 			<!-- Hero section -->
-			<hero-section class="mt-20" />
+			<hero-section />
 
 			<!-- Intro -->
-			<div class="relative isolate">
-				<svg
-					class="absolute inset-x-0 top-0 -z-10 h-[64rem] w-full stroke-gray-200 [mask-image:radial-gradient(32rem_32rem_at_center,white,transparent)]"
-					aria-hidden="true"
-				>
-					<defs>
-						<pattern
-							id="1f932ae7-37de-4c0a-a8b0-a6e3b4d44b84"
-							width="200"
-							height="200"
-							x="50%"
-							y="-1"
-							patternUnits="userSpaceOnUse"
-						>
-							<path d="M.5 200V.5H200" fill="none" />
-						</pattern>
-					</defs>
-					<svg x="50%" y="-1" class="overflow-visible fill-gray-50">
-						<path
-							d="M-200 0h201v201h-201Z M600 0h201v201h-201Z M-400 600h201v201h-201Z M200 800h201v201h-201Z"
-							stroke-width="0"
-						/>
-					</svg>
-					<rect
-						width="100%"
-						height="100%"
-						stroke-width="0"
-						fill="url(#1f932ae7-37de-4c0a-a8b0-a6e3b4d44b84)"
-					/>
-				</svg>
+			<div class="relative isolate overflow-hidden">
+				<!-- Background gradient -->
 				<div
-					class="absolute left-1/2 right-0 top-0 -z-10 -ml-24 transform-gpu overflow-hidden blur-3xl lg:ml-24 xl:ml-48"
-					aria-hidden="true"
-				>
-					<div
-						class="aspect-[801/1036] w-[50.0625rem] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30"
-						style="
-							clip-path: polygon(
-								63.1% 29.5%,
-								100% 17.1%,
-								76.6% 3%,
-								48.4% 0%,
-								44.6% 4.7%,
-								54.5% 25.3%,
-								59.8% 49%,
-								55.2% 57.8%,
-								44.4% 57.2%,
-								27.8% 47.9%,
-								35.1% 81.5%,
-								0% 97.7%,
-								39.2% 100%,
-								35.2% 81.4%,
-								97.2% 52.8%,
-								63.1% 29.5%
-							);
-						"
-					/>
-				</div>
-				<div class="overflow-hidden">
-					<div
-						class="mx-auto max-w-7xl px-6 pb-32 pt-36 sm:pt-60 lg:px-8 lg:pt-32"
-					>
-						<div
-							class="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center"
-						>
-							<div class="relative w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
-								<h1
-									class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl"
-								>
-									NEBO
-								</h1>
-								<p
-									class="mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none"
-								>
-									NEBO Indonesia tidak hanya berbagi tentang tips modifikasi dan
-									peningkatan performa, tetapi juga aktif mengadakan kegiatan
-									touring, kopdar, dan berbagai event seru lainnya. Bersama
-									NEBO, setiap anggota bisa merasakan sensasi berkendara yang
-									maksimal, sembari memperkuat tali persaudaraan sesama rider
-									Nmax Generasi Tiga.
-								</p>
+					class="absolute inset-0 -z-10 bg-gradient-to-b from-brand-ink via-brand-slate/50 to-brand-ink"
+				/>
 
-								<div class="mt-4 mb-6 font-bold">
-									Yuk, Gabung Gratis ke NEBO – Komunitas Seru Bagi Pengguna
-									Yamaha NMAX!
-									<div class="mt-2 font-semibold text-xs text-gray-500">
-										*Pada saat daftar sertakan foto selfie Anda dan motor untuk
-										verifikasi.
+				<div class="mx-auto max-w-7xl px-6 py-24 lg:px-8 lg:py-32">
+					<!-- Section Header -->
+					<div class="text-center mb-16">
+						<span
+							class="inline-flex items-center rounded-full bg-brand-accent/10 px-4 py-1.5 text-sm font-semibold text-brand-accent ring-1 ring-inset ring-brand-accent/20 mb-4"
+						>
+							KOMUNITAS YAMAHA NMAX NEO TURBO
+						</span>
+						<h2
+							class="text-4xl font-bold tracking-tight text-brand-text sm:text-5xl lg:text-6xl"
+						>
+							Selamat Datang di
+							<span class="text-brand-accent">NEBO</span>
+						</h2>
+						<p
+							class="mt-6 text-lg leading-8 text-brand-muted max-w-3xl mx-auto"
+						>
+							NEBO Indonesia tidak hanya berbagi tentang tips modifikasi dan
+							peningkatan performa, tetapi juga aktif mengadakan kegiatan
+							touring, kopdar, dan berbagai event seru lainnya.
+						</p>
+					</div>
+
+					<!-- Main Content Grid -->
+					<div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+						<!-- Left: Image Gallery -->
+						<div class="relative">
+							<!-- Main Image -->
+							<div
+								class="group relative overflow-hidden rounded-2xl aspect-[4/3]"
+							>
+								<img
+									src="/assets/images/hero/hero_1.jpeg"
+									alt="NEBO Community"
+									class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+								/>
+								<div
+									class="absolute inset-0 bg-gradient-to-t from-brand-ink/60 via-transparent to-transparent"
+								/>
+								<div
+									class="absolute inset-0 ring-1 ring-inset ring-white/10 rounded-2xl"
+								/>
+							</div>
+
+							<!-- Floating smaller images -->
+							<div
+								class="absolute -bottom-6 -right-6 w-32 sm:w-40 group overflow-hidden rounded-xl shadow-2xl ring-4 ring-brand-ink"
+							>
+								<img
+									src="/assets/images/hero/hero_2.jpeg"
+									alt="NEBO Event"
+									class="aspect-square w-full object-cover transition-transform duration-500 group-hover:scale-110"
+								/>
+							</div>
+							<div
+								class="absolute -top-6 -left-6 w-28 sm:w-36 group overflow-hidden rounded-xl shadow-2xl ring-4 ring-brand-ink hidden sm:block"
+							>
+								<img
+									src="/assets/images/hero/hero_3.jpeg"
+									alt="NEBO Touring"
+									class="aspect-square w-full object-cover transition-transform duration-500 group-hover:scale-110"
+								/>
+							</div>
+						</div>
+
+						<!-- Right: Content -->
+						<div class="lg:pl-8">
+							<div
+								class="flex items-center gap-3 mb-6 text-brand-accent font-semibold"
+							>
+								<div class="h-px w-12 bg-brand-accent"></div>
+								<span class="text-sm uppercase tracking-wider"
+									>Bergabung Bersama Kami</span
+								>
+							</div>
+
+							<h3
+								class="text-2xl sm:text-3xl font-bold text-brand-text mb-6 leading-tight"
+							>
+								Bersama NEBO, rasakan sensasi berkendara yang maksimal
+							</h3>
+
+							<p class="text-brand-muted leading-relaxed mb-8">
+								Setiap anggota bisa merasakan sensasi berkendara yang maksimal,
+								sembari memperkuat tali persaudaraan sesama rider Nmax Generasi
+								Tiga. Komunitas yang solid, kegiatan yang seru, dan pengalaman
+								tak terlupakan menanti Anda.
+							</p>
+
+							<!-- Features -->
+							<div class="grid sm:grid-cols-2 gap-4 mb-8">
+								<div
+									class="flex items-center gap-3 p-3 rounded-lg bg-brand-surface/50 border border-brand-border/50"
+								>
+									<div
+										class="w-10 h-10 rounded-full bg-brand-accent/10 flex items-center justify-center"
+									>
+										<svg
+											class="w-5 h-5 text-brand-accent"
+											fill="none"
+											viewBox="0 0 24 24"
+											stroke="currentColor"
+										>
+											<path
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												stroke-width="2"
+												d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
+											/>
+										</svg>
 									</div>
+									<span class="text-sm font-medium text-brand-text"
+										>Komunitas Solid</span
+									>
 								</div>
 								<div
-									class="mt-10 grid grid-cols-2 space-y-3 md:space-y-0 md:flex items-center gap-x-3 lg:mt-0 lg:flex-shrink-0"
+									class="flex items-center gap-3 p-3 rounded-lg bg-brand-surface/50 border border-brand-border/50"
 								>
-									<span class="text-sm font-semibold leading-6 text-gray-900">
-										Hubungi Rekrutmen <span aria-hidden="true">→</span>
-									</span>
+									<div
+										class="w-10 h-10 rounded-full bg-brand-accent/10 flex items-center justify-center"
+									>
+										<svg
+											class="w-5 h-5 text-brand-accent"
+											fill="none"
+											viewBox="0 0 24 24"
+											stroke="currentColor"
+										>
+											<path
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												stroke-width="2"
+												d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"
+											/>
+										</svg>
+									</div>
+									<span class="text-sm font-medium text-brand-text"
+										>Touring Seru</span
+									>
+								</div>
+								<div
+									class="flex items-center gap-3 p-3 rounded-lg bg-brand-surface/50 border border-brand-border/50"
+								>
+									<div
+										class="w-10 h-10 rounded-full bg-brand-accent/10 flex items-center justify-center"
+									>
+										<svg
+											class="w-5 h-5 text-brand-accent"
+											fill="none"
+											viewBox="0 0 24 24"
+											stroke="currentColor"
+										>
+											<path
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												stroke-width="2"
+												d="M13 10V3L4 14h7v7l9-11h-7z"
+											/>
+										</svg>
+									</div>
+									<span class="text-sm font-medium text-brand-text"
+										>Tips Modifikasi</span
+									>
+								</div>
+								<div
+									class="flex items-center gap-3 p-3 rounded-lg bg-brand-surface/50 border border-brand-border/50"
+								>
+									<div
+										class="w-10 h-10 rounded-full bg-brand-accent/10 flex items-center justify-center"
+									>
+										<svg
+											class="w-5 h-5 text-brand-accent"
+											fill="none"
+											viewBox="0 0 24 24"
+											stroke="currentColor"
+										>
+											<path
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												stroke-width="2"
+												d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+											/>
+										</svg>
+									</div>
+									<span class="text-sm font-medium text-brand-text"
+										>Event Rutin</span
+									>
+								</div>
+							</div>
+
+							<!-- CTA Box 1 -->
+							<div
+								class="bg-brand-surface/80 backdrop-blur rounded-xl p-6 border border-brand-border text-center lg:text-left"
+							>
+								<p class="font-bold text-brand-text mb-2">
+									Yuk, Gabung Gratis ke NEBO!
+								</p>
+								<p class="text-xs text-brand-muted mb-4">
+									*Sertakan foto selfie bersama motormu untuk verifikasi
+									keanggotaan
+								</p>
+								<div
+									class="flex flex-col sm:flex-row flex-wrap gap-3 justify-center lg:justify-start"
+								>
 									<a
 										:href="whatsappLinks.recruitment1"
 										target="_blank"
-										class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+										class="inline-flex items-center justify-center gap-2 rounded-lg bg-brand-accent px-4 py-2.5 text-sm font-semibold text-white shadow-lg shadow-brand-accent/25 hover:bg-brand-accent-strong hover:shadow-brand-accent/40 transition-all duration-300"
 									>
+										<svg
+											class="w-4 h-4"
+											fill="currentColor"
+											viewBox="0 0 24 24"
+										>
+											<path
+												d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"
+											/>
+										</svg>
 										Rekrutmen 1
 									</a>
 									<a
 										:href="whatsappLinks.recruitment3"
 										target="_blank"
-										class="rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+										class="inline-flex items-center justify-center gap-2 rounded-lg bg-brand-accent px-4 py-2.5 text-sm font-semibold text-white shadow-lg shadow-brand-accent/25 hover:bg-brand-accent-strong hover:shadow-brand-accent/40 transition-all duration-300"
 									>
+										<svg
+											class="w-4 h-4"
+											fill="currentColor"
+											viewBox="0 0 24 24"
+										>
+											<path
+												d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"
+											/>
+										</svg>
 										Rekrutmen 2
 									</a>
 								</div>
 							</div>
+						</div>
+					</div>
+
+					<!-- Bottom Image Strip -->
+					<div class="mt-20 grid grid-cols-2 sm:grid-cols-4 gap-4">
+						<div class="group relative overflow-hidden rounded-xl aspect-video">
+							<img
+								src="/assets/images/hero/hero_4.jpeg"
+								alt="NEBO Riders"
+								class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+							/>
 							<div
-								class="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0"
-							>
-								<div
-									class="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80"
-								>
-									<div class="relative">
-										<img
-											src="/assets/images/hero/hero_1.jpeg"
-											alt=""
-											class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
-										/>
-										<div
-											class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10"
-										/>
-									</div>
-								</div>
-								<div
-									class="mr-auto w-44 flex-none space-y-8 sm:mr-0 sm:pt-52 lg:pt-36"
-								>
-									<div class="relative">
-										<img
-											src="/assets/images/hero/hero_2.jpeg"
-											alt=""
-											class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
-										/>
-										<div
-											class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10"
-										/>
-									</div>
-									<div class="relative">
-										<img
-											src="/assets/images/hero/hero_3.jpeg"
-											alt=""
-											class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
-										/>
-										<div
-											class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10"
-										/>
-									</div>
-								</div>
-								<div class="w-44 flex-none space-y-8 pt-32 sm:pt-0">
-									<div class="relative">
-										<img
-											src="/assets/images/hero/hero_4.jpeg"
-											alt=""
-											class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
-										/>
-										<div
-											class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10"
-										/>
-									</div>
-									<div class="relative">
-										<img
-											src="/assets/images/hero/hero_5.jpeg"
-											alt=""
-											class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
-										/>
-										<div
-											class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10"
-										/>
-									</div>
-								</div>
-							</div>
+								class="absolute inset-0 bg-gradient-to-t from-brand-ink/50 to-transparent"
+							/>
+						</div>
+						<div class="group relative overflow-hidden rounded-xl aspect-video">
+							<img
+								src="/assets/images/hero/hero_5.jpeg"
+								alt="NEBO Meetup"
+								class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+							/>
+							<div
+								class="absolute inset-0 bg-gradient-to-t from-brand-ink/50 to-transparent"
+							/>
+						</div>
+						<div
+							class="group relative overflow-hidden rounded-xl aspect-video hidden sm:block"
+						>
+							<img
+								src="/assets/images/hero/hero_2.jpeg"
+								alt="NEBO Event"
+								class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+							/>
+							<div
+								class="absolute inset-0 bg-gradient-to-t from-brand-ink/50 to-transparent"
+							/>
+						</div>
+						<div
+							class="group relative overflow-hidden rounded-xl aspect-video hidden sm:block"
+						>
+							<img
+								src="/assets/images/hero/hero_3.jpeg"
+								alt="NEBO Touring"
+								class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+							/>
+							<div
+								class="absolute inset-0 bg-gradient-to-t from-brand-ink/50 to-transparent"
+							/>
 						</div>
 					</div>
 				</div>
 			</div>
 
 			<!-- Vision -->
-			<div class="overflow-hidden bg-white py-24 sm:py-32">
+			<div class="relative py-24 sm:py-32">
 				<div class="mx-auto max-w-7xl px-6 lg:px-8">
-					<div
-						class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2"
-					>
-						<div class="lg:pr-8 lg:pt-4">
-							<div class="lg:max-w-lg">
-								<p
-									class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
-								>
-									Mengapa harus bergabung?
-								</p>
-								<p class="mt-6 text-lg leading-8 text-gray-600">
-									Bergabung dengan NEBO bukan sekadar menjadi bagian dari
-									komunitas, tetapi juga membuka pintu menuju pengalaman
-									berkendara yang lebih seru dan berharga.
-								</p>
-								<dl
-									class="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none"
-								>
-									<div
-										v-for="mission in missions"
-										:key="mission.name"
-										class="relative pl-9"
-									>
-										<dt class="inline font-semibold text-gray-900">
-											<component
-												:is="mission.icon"
-												class="absolute left-1 top-1 h-5 w-5 text-yellow-600"
-												aria-hidden="true"
-											/>
-											{{ mission.name }}
-										</dt>
-										{{ ' ' }}
-										<dd class="inline">{{ mission.description }}</dd>
-									</div>
-								</dl>
+					<!-- Section Header -->
+					<div class="text-center mb-16">
+						<span
+							class="inline-flex items-center rounded-full bg-brand-accent/10 px-4 py-1.5 text-sm font-semibold text-brand-accent ring-1 ring-inset ring-brand-accent/20 mb-4"
+						>
+							Kenapa NEBO?
+						</span>
+						<h2
+							class="text-3xl font-bold tracking-tight text-brand-text sm:text-4xl lg:text-5xl"
+						>
+							Mengapa Harus Bergabung?
+						</h2>
+						<p class="mt-4 text-lg text-brand-muted max-w-2xl mx-auto">
+							Bergabung dengan NEBO bukan sekadar menjadi bagian dari komunitas,
+							tetapi juga membuka pintu menuju pengalaman berkendara yang lebih
+							seru.
+						</p>
+					</div>
+
+					<!-- Features Grid -->
+					<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+						<div
+							v-for="(mission, index) in missions"
+							:key="mission.name"
+							class="group relative bg-brand-surface/50 backdrop-blur rounded-2xl p-6 border border-brand-border/50 hover:border-brand-accent/50 transition-all duration-300 hover:-translate-y-1"
+						>
+							<div
+								class="w-12 h-12 rounded-xl bg-brand-accent/10 flex items-center justify-center mb-4 group-hover:bg-brand-accent/20 transition-colors duration-300"
+							>
+								<component
+									:is="mission.icon"
+									class="w-6 h-6 text-brand-accent"
+									aria-hidden="true"
+								/>
+							</div>
+							<h3
+								class="text-lg font-semibold text-brand-text mb-2 group-hover:text-brand-accent transition-colors duration-300"
+							>
+								{{ mission.name }}
+							</h3>
+							<p class="text-sm text-brand-muted leading-relaxed">
+								{{ mission.description }}
+							</p>
+							<div
+								class="absolute top-4 right-4 text-5xl font-bold text-brand-border/30 group-hover:text-brand-accent/20 transition-colors duration-300"
+							>
+								{{ String(index + 1).padStart(2, '0') }}
 							</div>
 						</div>
-						<img
-							src="/assets/images/logos/nebo_logo.jpeg"
-							alt="Product screenshot"
-							class="w-full max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 md:-ml-4 lg:-ml-0"
-							width="2432"
-							height="1442"
-						/>
+					</div>
+
+					<!-- Logo Section -->
+					<div class="mt-16 flex justify-center">
+						<div
+							class="group relative overflow-hidden rounded-2xl max-w-sm w-full"
+						>
+							<img
+								src="/assets/images/logos/NEBO.PNG"
+								alt="NEBO Logo"
+								class="w-full object-contain transition-transform duration-500 group-hover:scale-105"
+							/>
+						</div>
 					</div>
 				</div>
 			</div>
 
 			<!-- CTA -->
-			<div class="overflow-hidden bg-white py-32">
-				<div class="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
-					<div
-						class="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8"
-					>
-						<div class="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
-							<h2
-								class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
+			<div class="relative py-24 sm:py-32 overflow-hidden">
+				<!-- Background -->
+				<div
+					class="absolute inset-0 -z-10 bg-gradient-to-br from-brand-accent/5 via-brand-ink to-brand-slate/50"
+				/>
+				<div
+					class="absolute inset-y-0 right-0 -z-10 w-1/2 bg-gradient-to-l from-brand-accent/10 to-transparent"
+				/>
+
+				<div class="mx-auto max-w-7xl px-6 lg:px-8">
+					<div class="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+						<!-- Left Content -->
+						<div class="text-center lg:text-left">
+							<span
+								class="inline-flex items-center rounded-full bg-brand-accent/10 px-4 py-1.5 text-sm font-semibold text-brand-accent ring-1 ring-inset ring-brand-accent/20 mb-6"
 							>
-								Gabung sekarang juga!
-								<br />
-								Start your journey with us.
+								Gabung Sekarang
+							</span>
+							<h2
+								class="text-3xl sm:text-4xl lg:text-5xl font-bold text-brand-text leading-tight mb-6"
+							>
+								Mulai Perjalananmu
+								<span class="text-brand-accent">Bersama Kami</span>
 							</h2>
-							<p class="mt-6 text-xl leading-8 text-gray-600 mb-8">
+							<p
+								class="text-lg text-brand-muted mb-8 leading-relaxed max-w-md mx-auto lg:mx-0"
+							>
 								Bergabunglah sekarang dengan komunitas NMAX! Temukan teman,
-								pengalaman, dan petualangan seru bersama kami.
+								pengalaman, dan petualangan seru bersama kami. Jadilah bagian
+								dari keluarga besar NEBO Indonesia.
 							</p>
-							<div class="mt-4 mb-6 font-bold">
-								Yuk, Gabung Gratis ke NEBO – Komunitas Seru Bagi Pengguna Yamaha
-								NMAX!
-								<div class="mt-2 font-semibold text-xs text-gray-500">
-									*Pada saat daftar sertakan foto selfie Anda dan motor untuk
-									verifikasi.
+
+							<!-- Stats -->
+							<div
+								class="grid grid-cols-3 gap-4 sm:gap-6 mb-10 py-6 border-y border-brand-border/50"
+							>
+								<div class="text-center">
+									<div class="text-2xl sm:text-3xl font-bold text-brand-accent">
+										500+
+									</div>
+									<div class="text-xs sm:text-sm text-brand-muted mt-1">
+										Members
+									</div>
+								</div>
+								<div class="text-center">
+									<div class="text-2xl sm:text-3xl font-bold text-brand-accent">
+										50+
+									</div>
+									<div class="text-xs sm:text-sm text-brand-muted mt-1">
+										Events
+									</div>
+								</div>
+								<div class="text-center">
+									<div class="text-2xl sm:text-3xl font-bold text-brand-accent">
+										4+
+									</div>
+									<div class="text-xs sm:text-sm text-brand-muted mt-1">
+										Chapters
+									</div>
 								</div>
 							</div>
+
+							<!-- CTA Box 2 -->
 							<div
-								class="mt-10 grid grid-cols-2 space-y-3 md:space-y-0 md:flex items-center gap-x-3 lg:mt-0 lg:flex-shrink-0"
+								class="bg-brand-surface rounded-2xl p-6 border border-brand-border text-center lg:text-left"
 							>
-								<span class="text-sm font-semibold leading-6 text-gray-900">
-									Hubungi Rekrutmen <span aria-hidden="true">→</span>
-								</span>
-								<a
-									:href="whatsappLinks.recruitment1"
-									target="_blank"
-									class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+								<p class="font-bold text-brand-text mb-1">
+									Yuk, Gabung Gratis ke NEBO!
+								</p>
+								<p class="text-sm text-brand-muted mb-5">
+									*Sertakan foto selfie bersama motormu untuk verifikasi
+									keanggotaan
+								</p>
+								<div
+									class="flex flex-col sm:flex-row flex-wrap gap-3 justify-center lg:justify-start"
 								>
-									Rekrutmen 1
-								</a>
-								<a
-									:href="whatsappLinks.recruitment2"
-									target="_blank"
-									class="rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-								>
-									Rekrutmen 2
-								</a>
+									<a
+										:href="whatsappLinks.recruitment1"
+										target="_blank"
+										class="inline-flex items-center justify-center gap-2 rounded-xl bg-brand-accent px-5 py-3 text-sm font-semibold text-white shadow-lg shadow-brand-accent/25 hover:bg-brand-accent-strong hover:shadow-brand-accent/40 hover:-translate-y-0.5 transition-all duration-300"
+									>
+										<svg
+											class="w-5 h-5"
+											fill="currentColor"
+											viewBox="0 0 24 24"
+										>
+											<path
+												d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"
+											/>
+										</svg>
+										Rekrutmen 1
+									</a>
+									<a
+										:href="whatsappLinks.recruitment2"
+										target="_blank"
+										class="inline-flex items-center justify-center gap-2 rounded-xl bg-brand-accent px-5 py-3 text-sm font-semibold text-white shadow-lg shadow-brand-accent/25 hover:bg-brand-accent-strong hover:shadow-brand-accent/40 hover:-translate-y-0.5 transition-all duration-300"
+									>
+										<svg
+											class="w-5 h-5"
+											fill="currentColor"
+											viewBox="0 0 24 24"
+										>
+											<path
+												d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"
+											/>
+										</svg>
+										Rekrutmen 2
+									</a>
+								</div>
 							</div>
 						</div>
-						<div
-							class="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents"
-						>
-							<div
-								class="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end"
-							>
-								<img
-									src="/assets/images/hero/hero_1.jpeg"
-									alt=""
-									class="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover"
-								/>
-							</div>
-							<div
-								class="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8"
-							>
+
+						<!-- Right: Image Collage -->
+						<div class="relative order-first lg:order-last">
+							<!-- Mobile: Single Image -->
+							<div class="block lg:hidden">
 								<div
-									class="order-first flex w-64 flex-none justify-end self-end lg:w-auto"
+									class="group relative overflow-hidden rounded-2xl aspect-video mx-auto max-w-md"
 								>
 									<img
-										src="/assets/images/hero/hero_2.jpeg"
-										alt=""
-										class="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
+										src="/assets/images/hero/hero_1.jpeg"
+										alt="NEBO Community"
+										class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
 									/>
-								</div>
-								<div
-									class="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none"
-								>
-									<img
-										src="/assets/images/hero/hero_3.jpeg"
-										alt=""
-										class="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
-									/>
-								</div>
-								<div
-									class="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none"
-								>
-									<img
-										src="/assets/images/hero/hero_4.jpeg"
-										alt=""
-										class="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover"
+									<div
+										class="absolute inset-0 bg-gradient-to-t from-brand-ink/60 to-transparent"
 									/>
 								</div>
 							</div>
+
+							<!-- Desktop: Grid Collage -->
+							<div class="hidden lg:grid grid-cols-2 gap-4">
+								<div
+									class="group relative overflow-hidden rounded-2xl aspect-[3/4]"
+								>
+									<img
+										src="/assets/images/hero/hero_1.jpeg"
+										alt="NEBO Community"
+										class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+									/>
+									<div
+										class="absolute inset-0 bg-gradient-to-t from-brand-ink/60 to-transparent"
+									/>
+								</div>
+								<div class="space-y-4 pt-12">
+									<div
+										class="group relative overflow-hidden rounded-2xl aspect-square"
+									>
+										<img
+											src="/assets/images/hero/hero_2.jpeg"
+											alt="NEBO Event"
+											class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+										/>
+										<div
+											class="absolute inset-0 bg-gradient-to-t from-brand-ink/60 to-transparent"
+										/>
+									</div>
+									<div
+										class="group relative overflow-hidden rounded-2xl aspect-video"
+									>
+										<img
+											src="/assets/images/hero/hero_3.jpeg"
+											alt="NEBO Touring"
+											class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+										/>
+										<div
+											class="absolute inset-0 bg-gradient-to-t from-brand-ink/60 to-transparent"
+										/>
+									</div>
+								</div>
+							</div>
+							<!-- Decorative element -->
+							<div
+								class="hidden lg:block absolute -bottom-4 -left-4 w-24 h-24 bg-brand-accent/20 rounded-full blur-2xl"
+							/>
+							<div
+								class="hidden lg:block absolute -top-4 -right-4 w-32 h-32 bg-brand-accent/10 rounded-full blur-3xl"
+							/>
 						</div>
 					</div>
 				</div>
@@ -350,6 +571,10 @@ const registerMessage = createWhatsAppMessage();
 const whatsappLinks = {
 	recruitment1: createWhatsAppLink(
 		WHATSAPP_PHONES.RECRUITMENT_1,
+		registerMessage
+	),
+	recruitment2: createWhatsAppLink(
+		WHATSAPP_PHONES.RECRUITMENT_3,
 		registerMessage
 	),
 	recruitment3: createWhatsAppLink(

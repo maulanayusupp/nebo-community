@@ -9,7 +9,20 @@ export default {
 		'./error.vue',
 	],
 	theme: {
-		extend: {},
+		extend: {
+			colors: {
+				brand: {
+					ink: '#0f141b',
+					slate: '#151b24',
+					surface: '#1b2330',
+					border: '#2a3444',
+					text: '#e7ecf2',
+					muted: '#aeb6c2',
+					accent: '#ff8a2a',
+					'accent-strong': '#ff7a18',
+				},
+			},
+		},
 	},
 	plugins: [],
 };

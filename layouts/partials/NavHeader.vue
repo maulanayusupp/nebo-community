@@ -1,5 +1,5 @@
 <template>
-	<div class="bg-white">
+	<div class="bg-transparent">
 		<header class="absolute inset-x-0 top-0 z-50">
 			<nav
 				class="flex items-center justify-between p-6 lg:px-8"
@@ -18,7 +18,7 @@
 				<div class="flex lg:hidden">
 					<button
 						type="button"
-						class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+						class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-brand-text/80 hover:text-brand-accent transition-colors"
 						@click="mobileMenuOpen = true"
 					>
 						<span class="sr-only">Open main menu</span>
@@ -30,7 +30,7 @@
 						v-for="item in navigation"
 						:key="item.name"
 						:href="item.href"
-						class="text-sm font-semibold leading-6 text-gray-900"
+						class="text-sm font-semibold leading-6 text-brand-text/85 hover:text-brand-accent transition-colors"
 					>
 						{{ item.name }}
 					</a>
@@ -42,9 +42,9 @@
 				@close="mobileMenuOpen = false"
 				:open="mobileMenuOpen"
 			>
-				<div class="fixed inset-0 z-50" />
+				<div class="fixed inset-0 z-50 bg-brand-ink/70 backdrop-blur-sm" />
 				<DialogPanel
-					class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10"
+					class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-brand-slate px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-brand-border/60"
 				>
 					<div class="flex items-center justify-between">
 						<a href="#" class="-m-1.5 p-1.5">
@@ -57,7 +57,7 @@
 						</a>
 						<button
 							type="button"
-							class="-m-2.5 rounded-md p-2.5 text-gray-700"
+							class="-m-2.5 rounded-md p-2.5 text-brand-text/80 hover:text-brand-accent transition-colors"
 							@click="mobileMenuOpen = false"
 						>
 							<span class="sr-only">Close menu</span>
@@ -65,13 +65,13 @@
 						</button>
 					</div>
 					<div class="mt-6 flow-root">
-						<div class="-my-6 divide-y divide-gray-500/10">
+						<div class="-my-6 divide-y divide-brand-border/70">
 							<div class="space-y-2 py-6">
 								<a
 									v-for="item in navigation"
 									:key="item.name"
 									:href="item.href"
-									class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+									class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-brand-text/90 hover:bg-brand-surface transition-colors"
 								>
 									{{ item.name }}
 								</a>

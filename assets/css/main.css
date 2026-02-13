@@ -1,3 +1,72 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+	body {
+		@apply bg-brand-ink text-brand-text antialiased;
+		background-image:
+			radial-gradient(
+				1200px 600px at 10% -10%,
+				rgba(255, 138, 42, 0.08),
+				transparent 60%
+			),
+			radial-gradient(
+				900px 500px at 90% 0%,
+				rgba(27, 35, 48, 0.7),
+				transparent 55%
+			);
+	}
+
+	::selection {
+		background-color: rgba(255, 138, 42, 0.35);
+		color: #0f141b;
+	}
+}
+
+@layer components {
+	/* ── Modern Hero Slider ── */
+
+	/* Ken Burns slow zoom on active slide */
+	.home-banner .swiper-slide-active .hero-slide-img,
+	.home-banner .swiper-slide-duplicate-active .hero-slide-img {
+		animation: kenBurns 8s ease-out forwards;
+	}
+
+	@keyframes kenBurns {
+		0% {
+			transform: scale(1.05);
+		}
+		100% {
+			transform: scale(1.15);
+		}
+	}
+
+	/* Pagination bullets */
+	.hero-bullet {
+		display: inline-block;
+		width: 8px;
+		height: 8px;
+		background: rgba(174, 182, 194, 0.25);
+		border-radius: 9999px;
+		cursor: pointer;
+		transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+	}
+
+	.hero-bullet:hover {
+		background: rgba(174, 182, 194, 0.5);
+	}
+
+	.hero-bullet-active {
+		width: 32px;
+		height: 5px;
+		border-radius: 9999px;
+		background: #ff8a2a;
+	}
+
+	/* Hide default Swiper nav arrows */
+	.home-banner .swiper-button-next,
+	.home-banner .swiper-button-prev {
+		display: none;
+	}
+}
